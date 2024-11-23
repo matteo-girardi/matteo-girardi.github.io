@@ -11,10 +11,9 @@ permalink: /
 
 Halløj! 👋
 
-I'm Matteo and I'm a software developer.
-Even though I've found it out a little late, Programming is my passion ❤️! What I like the most about it, is that you are learning constantly.
+My name is Matteo and I'm a software developer. Programming is my passion ❤️! What I like the most about it is that you are constantly learning new things every single day.
 
-Here are a few projects I’ve worked on:
+Here you can find a list of projects that I’ve worked on:
 
 <ul class="projects">
     <li>
@@ -34,6 +33,6 @@ Here are a few projects I’ve worked on:
     </li>
 </ul>
 
-Currently I'm working as a Software Developer at [NTP Technology A/S](https://ntp.dk/) & [Digital Audio Denmark](https://digitalaudio.dk) on the [DADman](https://digitalaudio.dk/dadman/) software.
+Currently I'm working at [NTP Technology A/S](https://ntp.dk/) (aka [Digital Audio Denmark](https://digitalaudio.dk)) on the [DADman](https://digitalaudio.dk/dadman/) application.
 
 Hygge!
