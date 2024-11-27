@@ -18,15 +18,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Matteo's Site 👨🏻‍💻
+# Metadata
+title: "Matteo Girardi 👨🏻‍💻"
 description: >- # this means to ignore newlines until "baseurl:"
   🌍 Pale blue dot 🌌
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://matteo-girardi.github.io/"
+favicon: /favicon.ico
+
 author:
-  name: Matteo Girardi
-# twitter_username:
-github_username: matteo-girardi
+  name: "Matteo Girardi"
+  github_username: matteo-girardi
 # linkedin_username:
 
 # Build settings
