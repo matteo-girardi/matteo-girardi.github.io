@@ -38,6 +38,7 @@ plugins:
   - jekyll-seo-tag
 
 header_pages:
+  - work.md
   - about.md
   - blog.md
 

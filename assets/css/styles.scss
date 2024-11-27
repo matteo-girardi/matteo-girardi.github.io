@@ -18,3 +18,12 @@
   margin: 0 1.5em 1.5em 0;
   width: 150px;
 }
+
+.project-img {
+  border-radius: 1em;
+  transition: transform 0.3s ease; /* Smooth animation */
+}
+
+.project-img:hover {
+  transform: scale(1.1); /* Slightly enlarge the image */
+}
