@@ -11,7 +11,7 @@ Here you can find a list of projects that I’ve worked on:
 
 <ul class="projects">
     <li>
-        <a href="https://apps.apple.com/us/app/oticon-on/id980191174">
+        <a href="{% link oticon.md %}">
             <img class="project-img" src="../assets/images/oticon/oticon-on-app-icon.png" alt="Oticon ON" title="Oticon ON"/>
         </a>
     </li>
