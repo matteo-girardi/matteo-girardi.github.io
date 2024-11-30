@@ -22,9 +22,34 @@ img {
 }
 </style>
 
-> The Oticon ON app is no longer available as Oticon has released a new one called Oticon Companion.
+> The Oticon ON app is no longer available on the AppStore as Oticon has released a new one called Oticon Companion.
 
-The Oticon ON app is a companion application for Oticon hearing aids, designed to provide **enhanced functionality and control**. It is available for both iOS and Android devices and offers a **range of features tailored to improve the user experience** with Oticon hearing aids. Here's a concise summary of key features:
+---
+
+At Oticon I have been part of the iOS team in Copenhagen. The other part of the team was located in Warsaw, Poland. One or twice a year, I travelled there to work closely together and strenghten our collaboration. This app was white-labelled for several brands app: Bernafon, Sonic and Philips.
+
+My responsibilities and tasks were the following:
+
+- UI development using UIKit
+- Developing the architecture of the app using MVVM-Coordinator, with RxSwift and Combine.
+- Developing the BLE layer using CoreBluetooth
+- Developing REST APIs with back-end teams
+
+Features & projects I have worked on:
+
+- Brand new UI supporting white-labelling.
+  Other apps (Bernafon, Sonic & Philips) were developed based on the Oticon ON app.
+- Localization of several languages
+- MyHearingDay feature: Recording audio data throughout the day and the showing it to the user.
+- Support new models of hearing aids: decoding new features and capabilities of the hearing aid throught Bluetooth.
+
+For a period of time, around six months, I have fulfilled the **Scrum Master** role of my team.
+
+---
+
+Following you will find a description of the Oticon ON app.
+
+The Oticon ON app is a companion application for Oticon hearing aids, designed to provide **enhanced functionality and control**. It is available for both iOS (iPhone, iPad), Apple Watch and Android devices and offers a **range of features tailored to improve the user experience** with Oticon hearing aids. Here's a concise summary of key features:
 
 - `Remote Control`:
   Adjust volume and change programs directly from your smartphone.
@@ -60,8 +85,6 @@ The Oticon ON app is a companion application for Oticon hearing aids, designed t
   The Oticon ON app is praised for its intuitive interface, which makes it easy for users to manage their hearing aids independently. However, functionality may vary based on the hearing aid model and smartphone compatibility.
 
 This app empowers users to maximize the benefits of their Oticon hearing aids, offering convenience, connectivity, and customization.
-
-Following some screenshots:
 
 <div class="scroll-container">
   <img src="../../assets/images/oticon/01.jpg" alt="Oticon ON" title="Oticon ON"/>
