@@ -21,7 +21,7 @@ Here you can find a list of projects that I’ve worked on:
         </a>
     </li>
     <li>
-        <a href="https://digitalaudio.dk/dadman/">
+        <a href="{% link ntpdad.md %}">
             <img class="project-img" src="../assets/images/ntp/dadman-icon.png" alt="DADman" title="DADman"/>
         </a>
     </li>

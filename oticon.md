@@ -6,6 +6,7 @@ permalink: /work/oticonon/
 ---
 
 <link rel="stylesheet" href="/assets/css/styles.css">
+
 <style type="text/css">
 div.scroll-container {
   background-color: #333;
@@ -44,6 +45,12 @@ Features & projects I have worked on:
 - Support new models of hearing aids: decoding new features and capabilities of the hearing aid throught Bluetooth.
 
 For a period of time, around six months, I have fulfilled the **Scrum Master** role of my team.
+
+Languages, Tools and Technologies:
+
+- Swift/Objective-C, Ruby, Bash.
+- WatchKit, Realm, Firebase-Crashlytics.
+- Xcode, Swift Package Manager, git, Azure DevOps for CI/CD, fastlane, CocoaPods, Screenshot Testing
 
 ---
 

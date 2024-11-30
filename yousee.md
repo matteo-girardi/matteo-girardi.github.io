@@ -9,9 +9,9 @@ permalink: /work/yousee-play/
 
 At YouSee/Nuuday I have been developing the YouSee Play app which is available on iPhone, iPad and Apple TV.
 
-Achivement:
+Achievement:
 
-- **Have a crash-free rate of 99.8%**
+- **99.8% crash-free rate**
 - **Improve ratings from 2.0 to 4.3**
 
 My responsibilities and tasks were the following:
@@ -30,3 +30,9 @@ Features & projects I have worked on:
 - Build UI automation test workflow on Bitrise
 
 You can find the [YouSee Play](https://apps.apple.com/dk/app/yousee-play/id476306715) application on the AppStore
+
+Languages, Tools and Technologies:
+
+- Swift/Objective-C.
+- Xcode, Swift Package Manager, git, Bitrise.
+- UIKit, Combine, SwiftUI, Alamofire, AppCenter, Firebase, AppSpector, The Composable Architecture.
