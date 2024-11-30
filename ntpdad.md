@@ -13,7 +13,7 @@ permalink: /work/dadman/
 
 The [DADman](https://digitalaudio.dk/dadman/) software application, running Windows & macOS, controls the DAD AD/DA converters. For more information about Digital Audio Denmark check this [link](https://digitalaudio.dk/).
 
-Languages, Tools and Technologies:
+## Languages, Tools and Technologies 🛠️
 
 - C++, Objective-C++, JavaScript/HTML/CSS
 - Xcode, git, GitLab.

@@ -29,15 +29,12 @@ img {
 
 At Oticon I have been part of the iOS team in Copenhagen. The other part of the team was located in Warsaw, Poland. One or twice a year, I travelled there to work closely together and strenghten our collaboration. This app was white-labelled for several brands app: Bernafon, Sonic and Philips.
 
-My responsibilities and tasks were the following:
+## Features, projects, tasks & responsibilities 📖
 
 - UI development using UIKit
 - Developing the architecture of the app using MVVM-Coordinator, with RxSwift and Combine.
 - Developing the BLE layer using CoreBluetooth
 - Developing REST APIs with back-end teams
-
-Features & projects I have worked on:
-
 - Brand new UI supporting white-labelling.
   Other apps (Bernafon, Sonic & Philips) were developed based on the Oticon ON app.
 - Localization of several languages
@@ -46,7 +43,7 @@ Features & projects I have worked on:
 
 For a period of time, around six months, I have fulfilled the **Scrum Master** role of my team.
 
-Languages, Tools and Technologies:
+## Languages, Tools and Technologies 🛠️
 
 - Swift/Objective-C, Ruby, Bash.
 - WatchKit, Realm, Firebase-Crashlytics.
@@ -54,7 +51,7 @@ Languages, Tools and Technologies:
 
 ---
 
-Following you will find a description of the Oticon ON app.
+## Description
 
 The Oticon ON app is a companion application for Oticon hearing aids, designed to provide **enhanced functionality and control**. It is available for both iOS (iPhone, iPad), Apple Watch and Android devices and offers a **range of features tailored to improve the user experience** with Oticon hearing aids. Here's a concise summary of key features:
 
