@@ -20,7 +20,7 @@
 	"author": {
 		"name": "Matteo Girardi",
 		"email": "",
-		"url": "https://matteo-girardi.github.io"
+		"url": "https://matteo-girardi.github.io/"
 	},
 	"license": "MIT",
 	"engines": {
@@ -33,7 +33,7 @@
 	"bugs": {
 		"url": ""
 	},
-	"homepage": "https://github.com/11ty/eleventy-base-blog#readme",
+	"homepage": "https://matteo-girardi.github.io/",
 	"devDependencies": {
 		"@11ty/eleventy": "^3.0.0",
 		"@11ty/eleventy-img": "^5.0.0",
