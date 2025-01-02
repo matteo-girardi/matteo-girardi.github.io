@@ -1,7 +1,7 @@
 {
-	"name": "",
+	"name": "matteo-girardi.github.io",
 	"version": "9.0.0",
-	"description": "A starter repository for a blog web site using the Eleventy site generator.",
+	"description": "Matteo Girardi's personal website, using the Eleventy site generator and based on eleventy-base-blog",
 	"type": "module",
 	"scripts": {
 		"build": "npx @11ty/eleventy",
@@ -31,7 +31,7 @@
 		"url": "https://opencollective.com/11ty"
 	},
 	"bugs": {
-		"url": ""
+		"url": "https://github.com/matteo-girardi/matteo-girardi.github.io/issues"
 	},
 	"homepage": "https://matteo-girardi.github.io/",
 	"devDependencies": {
