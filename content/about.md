@@ -16,7 +16,7 @@ The past 7 years I have been working as an iOS engineer building and deploying t
 
 ## Other Interests
 
-When I'm not working, I like to learn new things, especially about programming and computer engineering. I often find myself reading programming books.   I also like to tinker with arduino and raspberry pi for time to time. I love to read books, especially science fiction: Dune is by far my favorite one!
+When I'm not working, I like to learn new things, especially about programming and computer engineering. I often find myself reading programming books.   I also like to tinker with arduino and raspberry pi from time to time. I love to read books, especially science fiction: Dune is by far my favorite one!
 
 I have been playing the guitar since I was 13, and music has played a big role in my life.
 

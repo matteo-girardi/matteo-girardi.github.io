@@ -11,6 +11,6 @@ Here I'm planning the blog about programming, computer engineering, software dev
 
 Also I want to showcase projects, software and applications that I have worked on.
 
-If you want to get in contact check my [about](../about.md) about page.
+If you want to get in contact check my [about](../about.md) page.
 
 Hygge! ❤️
