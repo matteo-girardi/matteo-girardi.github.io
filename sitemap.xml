@@ -2,62 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
-		<loc>https://matteo-girardi.github.io/eleventy-base-blog/blog/2020-07-04-welcome-to-my-website/</loc>
+		<loc>https://matteo-girardi.github.io/blog/2020-07-04-welcome-to-my-website/</loc>
 		<lastmod>2020-07-04</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://matteo-girardi.github.io/eleventy-base-blog/blog/2020-07-05-very-first-post/</loc>
+		<loc>https://matteo-girardi.github.io/blog/2020-07-05-very-first-post/</loc>
 		<lastmod>2020-07-05</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://matteo-girardi.github.io/eleventy-base-blog/about/</loc>
+		<loc>https://matteo-girardi.github.io/about/</loc>
 		<lastmod>2025-01-02</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://matteo-girardi.github.io/eleventy-base-blog/blog/</loc>
+		<loc>https://matteo-girardi.github.io/blog/</loc>
 		<lastmod>2025-01-02</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://matteo-girardi.github.io/eleventy-base-blog/</loc>
+		<loc>https://matteo-girardi.github.io/</loc>
 		<lastmod>2025-01-02</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://matteo-girardi.github.io/eleventy-base-blog/portfolio/</loc>
+		<loc>https://matteo-girardi.github.io/portfolio/</loc>
 		<lastmod>2025-01-02</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://matteo-girardi.github.io/eleventy-base-blog/portfolio/dadman/</loc>
+		<loc>https://matteo-girardi.github.io/portfolio/dadman/</loc>
 		<lastmod>2025-01-02</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://matteo-girardi.github.io/eleventy-base-blog/portfolio/oticonon/</loc>
+		<loc>https://matteo-girardi.github.io/portfolio/oticonon/</loc>
 		<lastmod>2025-01-02</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://matteo-girardi.github.io/eleventy-base-blog/portfolio/spaace/</loc>
+		<loc>https://matteo-girardi.github.io/portfolio/spaace/</loc>
 		<lastmod>2025-01-02</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://matteo-girardi.github.io/eleventy-base-blog/portfolio/youseeplay/</loc>
+		<loc>https://matteo-girardi.github.io/portfolio/youseeplay/</loc>
 		<lastmod>2025-01-02</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://matteo-girardi.github.io/eleventy-base-blog/tags/</loc>
+		<loc>https://matteo-girardi.github.io/tags/</loc>
 		<lastmod>2025-01-02</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://matteo-girardi.github.io/eleventy-base-blog/feed/feed.xml</loc>
+		<loc>https://matteo-girardi.github.io/feed/feed.xml</loc>
 		<lastmod>2025-01-02</lastmod>
 	</url>
 </urlset>
