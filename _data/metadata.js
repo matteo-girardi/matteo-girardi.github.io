@@ -1,8 +1,9 @@
 export default {
-	title: "Home",
+	title: "Matteo Girardi",
 	url: "https://matteo-girardi.github.io",
 	language: "en",
-	description: "stuck in a deadlock :v",
+	description:
+		"Software engineer, music lover, sci-fi addicted, stargazer and stuck in a deadlock!",
 	author: {
 		name: "Matteo Girardi",
 		email: "",
