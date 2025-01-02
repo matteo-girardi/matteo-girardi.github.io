@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+	
+	<url>
+		<loc>https://matteo-girardi.github.io/eleventy-base-blog/blog/2020-07-04-welcome-to-my-website/</loc>
+		<lastmod>2020-07-04</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://matteo-girardi.github.io/eleventy-base-blog/blog/2020-07-05-very-first-post/</loc>
+		<lastmod>2020-07-05</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://matteo-girardi.github.io/eleventy-base-blog/about/</loc>
+		<lastmod>2025-01-02</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://matteo-girardi.github.io/eleventy-base-blog/blog/</loc>
+		<lastmod>2025-01-02</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://matteo-girardi.github.io/eleventy-base-blog/</loc>
+		<lastmod>2025-01-02</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://matteo-girardi.github.io/eleventy-base-blog/portfolio/</loc>
+		<lastmod>2025-01-02</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://matteo-girardi.github.io/eleventy-base-blog/portfolio/dadman/</loc>
+		<lastmod>2025-01-02</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://matteo-girardi.github.io/eleventy-base-blog/portfolio/oticonon/</loc>
+		<lastmod>2025-01-02</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://matteo-girardi.github.io/eleventy-base-blog/portfolio/spaace/</loc>
+		<lastmod>2025-01-02</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://matteo-girardi.github.io/eleventy-base-blog/portfolio/youseeplay/</loc>
+		<lastmod>2025-01-02</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://matteo-girardi.github.io/eleventy-base-blog/tags/</loc>
+		<lastmod>2025-01-02</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://matteo-girardi.github.io/eleventy-base-blog/feed/feed.xml</loc>
+		<lastmod>2025-01-02</lastmod>
+	</url>
+</urlset>

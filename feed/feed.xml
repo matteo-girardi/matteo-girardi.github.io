@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="pretty-atom-feed.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>Matteo&#39;s personal blog</title>
+  <subtitle>This is a longer description about your blog.</subtitle>
+  <link href="https://matteo-girardi.github.io/eleventy-base-blog/feed/feed.xml" rel="self" />
+  <link href="https://matteo-girardi.github.io/eleventy-base-blog/" />
+  <updated>2020-07-05T00:00:00Z</updated>
+  <id>https://matteo-girardi.github.io/eleventy-base-blog/</id>
+  <author>
+    <name>Matteo Girardi</name>
+  </author>
+  <entry>
+    <title>My very first post</title>
+    <link href="https://matteo-girardi.github.io/eleventy-base-blog/blog/2020-07-05-very-first-post/" />
+    <updated>2020-07-05T00:00:00Z</updated>
+    <id>https://matteo-girardi.github.io/eleventy-base-blog/blog/2020-07-05-very-first-post/</id>
+    <content type="html">&lt;p&gt;Goosnargh!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Welcome to Matteo&#39;s corner of the Internet !</title>
+    <link href="https://matteo-girardi.github.io/eleventy-base-blog/blog/2020-07-04-welcome-to-my-website/" />
+    <updated>2020-07-04T00:00:00Z</updated>
+    <id>https://matteo-girardi.github.io/eleventy-base-blog/blog/2020-07-04-welcome-to-my-website/</id>
+    <content type="html">&lt;p&gt;Halløj! 👋 as we say here in Denmark 🇩🇰, and welcome to my corner of the Internet.&lt;/p&gt;
+&lt;p&gt;Here I&#39;m planning the blog about programming, computer engineering, software development and things I&#39;m currently tinkering with.&lt;/p&gt;
+&lt;p&gt;Also I want to showcase projects, software and applications that I have worked on.&lt;/p&gt;
+&lt;p&gt;If you want to get in contact check my &lt;a href=&quot;https://matteo-girardi.github.io/eleventy-base-blog/about/&quot;&gt;about&lt;/a&gt; about page.&lt;/p&gt;
+&lt;p&gt;Hygge! ❤️&lt;/p&gt;
+</content>
+  </entry>
+</feed>
