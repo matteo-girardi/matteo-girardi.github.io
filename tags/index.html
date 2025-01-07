@@ -28,12 +28,12 @@
 :root {
 	--font-family: -apple-system, system-ui, sans-serif;
 	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono,
-		Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono,
-		Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New,
-		Courier, monospace;
+		Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono,
+		Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
 }
 
 /* Theme colors */
+/* ----------- TODO: light theme -----------
 :root {
 	--color-gray-20: #e0e0e0;
 	--color-gray-50: #c0c0c0;
@@ -48,37 +48,37 @@
 	--text-color-link-visited: #17050f;
 
 	--syntax-tab-size: 2;
+} */
+
+/* @media (prefers-color-scheme: dark) { */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #c0c0c0;
+	--color-gray-90: #dad8d8;
+
+	--text-color: var(--color-gray-90);
+	/* --text-color-link: #1493fb; */
+	--text-color-link: #fff;
+	/* --text-color-link-active: #6969f7; */
+	--text-color-link-active: #a3f769;
+	/* --text-color-link-visited: #a6a6f8; */
+	--text-color-link-visited: #fff;
+
+	/* --background-color: #fff; */
+	/* --background-color: #283849; */
+	/* --background-color: #095684; */
+	/* --background-color: #35395F; */
+	/* --background-color: #F5F5DC; */ /* Beige */
+	/* --background-color: #1c7ed6; */
+	/* --background-color: #121417; */
+	--background-color: #f6f6f8;
+
+	background-color: #082840;
+	background-image: linear-gradient(to right, #2b7fff1a 2px, transparent 1px),
+		linear-gradient(to bottom, #2b7fff1a 2px, transparent 1px);
+	background-size: 20px 20px;
 }
-
-@media (prefers-color-scheme: dark) {
-	:root {
-		--color-gray-20: #e0e0e0;
-		--color-gray-50: #c0c0c0;
-		--color-gray-90: #dad8d8;
-
-		/* --text-color is assigned to --color-gray-_ above */
-		/* --text-color-link: #1493fb; */
-		--text-color-link: #fff;
-		/* --text-color-link-active: #6969f7; */
-		--text-color-link-active: #a3f769;
-		/* --text-color-link-visited: #a6a6f8; */
-		--text-color-link-visited: #fff;
-
-		/* --background-color: #fff; */
-		/* --background-color: #283849; */
-		/* --background-color: #095684; */
-		/* --background-color: #35395F; */
-		/* --background-color: #F5F5DC; */ /* Beige */
-		/* --background-color: #1c7ed6; */
-		/* --background-color: #121417; */
-		--background-color: #f6f6f8;
-
-		background-color: #082840;
-		background-image: linear-gradient(to right, #2b7fff1a 2px, transparent 1px),
-			linear-gradient(to bottom, #2b7fff1a 2px, transparent 1px);
-		background-size: 20px 20px;
-	}
-}
+/* } */
 
 /* Global stylesheet */
 * {
@@ -2551,7 +2551,7 @@ url("./fonts/bootstrap-icons.woff?dd67030699838ea613ee6dbda90effa6") format("wof
 
 		<footer>
 			<p>
-				<em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a> on Sun Jan 05 2025</em>
+				<em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a> on Tue Jan 07 2025</em>
 			</p>
 		</footer>
 
