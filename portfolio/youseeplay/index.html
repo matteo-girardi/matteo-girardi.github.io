@@ -2546,7 +2546,8 @@ mark {
   border-radius: 4px;
 }
 </style>
-<p>At <a href="https://yousee.dk/play#forside">YouSee</a>/<a href="https://nuuday.com/">Nuuday</a> I have been working on the YouSee Play mobilde app which is available for iPhone, iPad and Apple TV. YouSee Play is the biggest streaming platform in Denmark.</p>
+<h1 id="yousee-play-is-the-biggest-streaming-platform-in-denmark">YouSee Play is the <mark>biggest streaming platform in Denmark 🇩🇰 </mark></h1>
+<p>At <a href="https://yousee.dk/play#forside">YouSee</a>/<a href="https://nuuday.com/">Nuuday</a> I have been working on the YouSee Play mobile app which is available for iPhone, iPad and Apple TV.</p>
 <div class="yousee-banner">
 	<h2 id="endless-entertainment-with-yousee-play">Endless Entertainment with YouSee Play</h2>
 	<p>The YouSee Play app lets you enjoy TV, movies, and series on your mobile or tablet, giving you unlimited access to hours of entertainment anytime, anywhere. It brings together your favorite TV channels, a vast library of movies and series, and Denmark’s largest kids’ universe – all in one app. Here’s what you get with the YouSee Play app:
@@ -2556,30 +2557,63 @@ mark {
 <li>TV Archive – Explore thousands of new programs every week in the TV archive.</li>
 <li>Manage Your Viewing – Easily switch TV channels or streaming services directly within the app.</li>
 <li>Movies &amp; Series – Enjoy unlimited access to a rich selection of movies and series for the whole family, with fresh titles added weekly.</li>
-<li>Children’s Universe – Dive into hours of fun with a dedicated library of movies and series for kids of all ages.</li>
+<li>Children’s Universe – Dive into hours of fun with a dedicated library of movies and series for kids of all ages.<p></p></li>
 </ul>
-<p>At YouSee, we’re constantly enhancing and updating our app to deliver the best experience possible. To make the most of YouSee Play, we recommend enabling automatic updates to ensure you’re always using the latest version.</p><p></p>
 </div>
 <h2 id="achievement">Achievement 🎉</h2>
 <ul>
 <li>From 75% to <mark><strong>99.8% crash-free rate</strong></mark> 🚀</li>
 <li><mark><strong>Improved AppStore ratings from 2.0 to 4.3</strong></mark> ✨</li>
 <li>Significantly improved video start failures and video startup time by <mark><strong>more than 20%</strong></mark> 💪</li>
-<li><mark><strong>Development efficiency significantly improved</strong></mark> through the use of shared code across all Apple platforms. 👨🏻‍💻</li>
+<li><mark><strong>Significantly improved development efficiency</strong></mark> by having a single source code on all Apple platforms. 👨🏻‍💻</li>
 </ul>
 <h2 id="features-projects-tasks-and-responsibilities">Features, projects, tasks &amp; responsibilities 📖</h2>
 <ul>
-<li>Redesigning the Synopsis, and other part of the UI using UIKit &amp; SwiftUI:
+<li>Synopsis feature:
 <ul>
-<li>Rewriting how an asset and related content is presented to the user, so that it is presented in a cleaner and more applealing way to the user.</li>
+<li>Redesigned the Synopsis on client apps (iOS/iPad and tvOS), and other parts of the UI using UIKit &amp; SwiftUI.</li>
+<li>Rewritten how an asset and related content is shown to the user, so that it is presented in a cleaner and more appealing way to the user.</li>
+<li>Implemented several sub-features: Recordings, Reminders &amp; Start Over.</li>
 </ul>
 </li>
-<li>Redesigning and rewriting the core architecture of the app's architecture using MVVM and <a href="https://github.com/pointfreeco/swift-composable-architecture">The Composable Architecture</a>. The company is now positioned to innovate more rapidly, unlocking new possibilities for users and enhancing customer retention and acquisition.</li>
-<li>Integration with third-party C++ DRM Library. Only users that have proper rights can watch contents in the app.</li>
-<li>Player: rewritten the entire architecture and logic.</li>
-<li>Bringing together two applications doing the same thing, with different code bases, into one single app (and source code!). Moving business logic in reusable and modular swift packages. This has the benefit of improving development efficiency, reducing bugs, complexity and making it easier to develop feature.</li>
-<li>Integrate third-party analytics frameworks (Conviva, Agama), for data analysis, for example: Video startup time. This gave us lots of data and great insight into our app, so that we could take decisions that were backed by data.</li>
-<li>Build UI automation test workflow on Bitrise, using Appium. This helped a lot the QA team, by saving time and improving the quality of the verification process.</li>
+<li>Core architecture project:
+<ul>
+<li>The core architecture of the application has been redisigned and rewritten using MVVM and <a href="https://github.com/pointfreeco/swift-composable-architecture">The Composable Architecture</a>. This approach came with several benefits: <mark>consistent way of implementing features, which are easier to implement and integrate with the souce code, easier to write unit tests</mark>.</li>
+</ul>
+</li>
+<li>Integrated third-party C++ library for Digital Rights Management. Only entitled users can watch contents in the app.</li>
+<li>Native Player feature:
+<ul>
+<li>The old, legacy, custom player written in ObjC was removed. The Apple's native player has been used instead on all platforms. This approach had several benefits: <mark>same native behaviour on all platforms, less code maintanance, up to date with latest native features</mark>.</li>
+</ul>
+</li>
+<li>Scrubbing rights feature:
+<ul>
+<li>Implemented the business logic that handles scrubbing rights.</li>
+</ul>
+</li>
+<li>One source code project:
+<ul>
+<li>Initially the iOS and tvOS app had two different source code, doing the same thing. Together with my team, we merged these into one single source code. We moved business logic, features, and UI into reusable and modular swift packages. We have implemented platform-dependent UI only when necessary. This has the benefit of <mark>improving development efficiency, reducing bugs, complexity and making it easier to develop features</mark>.</li>
+</ul>
+</li>
+<li>Integrated third-party analytics frameworks (Conviva, Agama), for data analysis; for example: Video startup time. This gave us lots of data and great insight into our app, so that we could <mark>take decisions that were backed by data</mark>.</li>
+<li>UI Automation Tests project:
+<ul>
+<li>Built UI automation tests workflow on Bitrise, using Appium. This helped a lot the QA team, by <mark>saving time and improving the quality of the verification process</mark>.</li>
+</ul>
+</li>
+<li>CI/CD: built pipelines and workflows on Bitrise.</li>
+<li>Concurrency feature:
+<ul>
+<li>Users may have a limited amount on concurrent streams, depending on the content provider. For example: a TV channel may have two concurrent streams.</li>
+</ul>
+</li>
+<li>Fallback feature:
+<ul>
+<li>In case of accidents, this feature can be activated using a remote feature flag, so that users can enjoy contents that are not affected by issues from back-end. It also informs users of unavailable services in a user-friendly way.</li>
+</ul>
+</li>
 </ul>
 <p>You can find the <a href="https://apps.apple.com/dk/app/yousee-play/id476306715">YouSee Play</a> application on the AppStore</p>
 <h2 id="languages-tools-and-technologies">Languages, Tools and Technologies 🛠️</h2>
@@ -2597,10 +2631,10 @@ mark {
 
 		<footer>
 			<p>
-				<em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a> on Tue Jan 07 2025</em>
+				<em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a> on Tue Feb 11 2025</em>
 			</p>
 		</footer>
 
-		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
+		<script type="module" src="/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>
