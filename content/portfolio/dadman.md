@@ -1,9 +1,9 @@
 ---
-title: DADman 🎚️🔊
+title: DADman 🎚️ 🔊
 description: The DADman app controls the audio interfaces developed at Digital Audio Denmark (DAD)
 ---
 
-# DADman 🎚️🔊
+# DADman 🎚️ 🔊
 
 [DADman](https://digitalaudio.dk/dadman/) is a software application, running on Windows & macOS, that controls the DAD AD/DA converters. For more information about Digital Audio Denmark check this [link](https://digitalaudio.dk/).
 
