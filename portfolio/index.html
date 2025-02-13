@@ -433,6 +433,87 @@ i.bi {
 .social li {
 	margin: 0 1.5em 0 0;
 }
+
+/* github-like diff changes */
+.diff-wrapper {
+	display: flex;
+	gap: 15px; /* Space between diff containers */
+	justify-content: center;
+	align-items: center;
+}
+
+.diff-container {
+	display: flex;
+	align-items: center;
+	background-color: white;
+	border-radius: 10px;
+	padding: 10px;
+	font-family: Arial, sans-serif;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.added {
+	color: #28a745;
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+.deleted {
+	color: #d73a49;
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+.diff-boxes {
+	display: flex;
+	gap: 2px;
+}
+
+.box {
+	width: 12px;
+	height: 12px;
+	background-color: #d73a49;
+	border-radius: 2px;
+}
+
+.box.empty {
+	background-color: #e1e4e8;
+}
+
+/* screenshots showcase */
+.image-container {
+	display: flex;
+	gap: 10px; /* Space between images */
+	margin-top: 10px;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	padding: 10px;
+	border: 3px solid black;
+	box-shadow: -7px 7px #2f2f2f;
+}
+
+.image-box {
+}
+
+.image-box img {
+	width: 300px; /* Adjust size as needed */
+	height: auto;
+	border-radius: 5px;
+}
+
+.banner-text {
+	background-color: #092119;
+	padding: 10px;
+	border-radius: 5px;
+	border: 3px solid black;
+	font-weight: bold;
+	margin-top: 10px;
+	display: inline-block;
+	width: 100%;
+}
 /*!
  * Bootstrap Icons v1.11.3 (https://icons.getbootstrap.com/)
  * Copyright 2019-2024 The Bootstrap Authors
@@ -2579,7 +2660,7 @@ url("./fonts/bootstrap-icons.woff?dd67030699838ea613ee6dbda90effa6") format("wof
 
 		<footer>
 			<p>
-				<em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a> on Tue Feb 11 2025</em>
+				<em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a> on Thu Feb 13 2025</em>
 			</p>
 		</footer>
 

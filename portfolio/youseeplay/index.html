@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>YouSee Play 📺📱👀▶️</title>
+		<title>YouSee Play 📺 👀 ▶️</title>
 		<meta name="description" content="A mobile application for streaming Live TV, Movies &amp; TV series.">
 		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Matteo Girardi">
 		<link rel="apple-touch-icon" sizes="180x180" href="ico/apple-icon-180x180.png">
@@ -432,6 +432,87 @@ i.bi {
 
 .social li {
 	margin: 0 1.5em 0 0;
+}
+
+/* github-like diff changes */
+.diff-wrapper {
+	display: flex;
+	gap: 15px; /* Space between diff containers */
+	justify-content: center;
+	align-items: center;
+}
+
+.diff-container {
+	display: flex;
+	align-items: center;
+	background-color: white;
+	border-radius: 10px;
+	padding: 10px;
+	font-family: Arial, sans-serif;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.added {
+	color: #28a745;
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+.deleted {
+	color: #d73a49;
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+.diff-boxes {
+	display: flex;
+	gap: 2px;
+}
+
+.box {
+	width: 12px;
+	height: 12px;
+	background-color: #d73a49;
+	border-radius: 2px;
+}
+
+.box.empty {
+	background-color: #e1e4e8;
+}
+
+/* screenshots showcase */
+.image-container {
+	display: flex;
+	gap: 10px; /* Space between images */
+	margin-top: 10px;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	padding: 10px;
+	border: 3px solid black;
+	box-shadow: -7px 7px #2f2f2f;
+}
+
+.image-box {
+}
+
+.image-box img {
+	width: 300px; /* Adjust size as needed */
+	height: auto;
+	border-radius: 5px;
+}
+
+.banner-text {
+	background-color: #092119;
+	padding: 10px;
+	border-radius: 5px;
+	border: 3px solid black;
+	font-weight: bold;
+	margin-top: 10px;
+	display: inline-block;
+	width: 100%;
 }
 /*!
  * Bootstrap Icons v1.11.3 (https://icons.getbootstrap.com/)
@@ -2547,7 +2628,7 @@ mark {
 }
 </style>
 <h1 id="yousee-play-is-the-biggest-streaming-platform-in-denmark">YouSee Play is the <mark>biggest streaming platform in Denmark 🇩🇰 </mark></h1>
-<p>At <a href="https://yousee.dk/play#forside">YouSee</a>/<a href="https://nuuday.com/">Nuuday</a> I have been working on the YouSee Play mobile app which is available for iPhone, iPad and Apple TV.</p>
+<p>At <a href="https://yousee.dk/play#forside">YouSee</a>/<a href="https://nuuday.com/">Nuuday</a> I have been working on the YouSee Play mobile app, available for iPhone, iPad and Apple TV.</p>
 <div class="yousee-banner">
 	<h2 id="endless-entertainment-with-yousee-play">Endless Entertainment with YouSee Play</h2>
 	<p>The YouSee Play app lets you enjoy TV, movies, and series on your mobile or tablet, giving you unlimited access to hours of entertainment anytime, anywhere. It brings together your favorite TV channels, a vast library of movies and series, and Denmark’s largest kids’ universe – all in one app. Here’s what you get with the YouSee Play app:
@@ -2560,68 +2641,115 @@ mark {
 <li>Children’s Universe – Dive into hours of fun with a dedicated library of movies and series for kids of all ages.<p></p></li>
 </ul>
 </div>
-<h2 id="achievement">Achievement 🎉</h2>
+<h1 id="achievements">Achievements 🎉</h1>
 <ul>
 <li>From 75% to <mark><strong>99.8% crash-free rate</strong></mark> 🚀</li>
 <li><mark><strong>Improved AppStore ratings from 2.0 to 4.3</strong></mark> ✨</li>
 <li>Significantly improved video start failures and video startup time by <mark><strong>more than 20%</strong></mark> 💪</li>
 <li><mark><strong>Significantly improved development efficiency</strong></mark> by having a single source code on all Apple platforms. 👨🏻‍💻</li>
 </ul>
-<h2 id="features-projects-tasks-and-responsibilities">Features, projects, tasks &amp; responsibilities 📖</h2>
+<h1 id="features-projects-and-responsibilities">Features, projects &amp; responsibilities 📖</h1>
+<h3 id="synopsis-feature">Synopsis feature:</h3>
 <ul>
-<li>Synopsis feature:
-<ul>
-<li>Redesigned the Synopsis on client apps (iOS/iPad and tvOS), and other parts of the UI using UIKit &amp; SwiftUI.</li>
-<li>Rewritten how an asset and related content is shown to the user, so that it is presented in a cleaner and more appealing way to the user.</li>
+<li>Redesigned it on all client apps (iOS/iPad and tvOS). By implementing the UI in several Swift packages, we were able <mark>reuse code on iOS/iPadOS and tvOS, greatly reducing complexity and avoiding code duplication among these platforms. Lots of duplicated and legacy UI code was removed!</mark></li>
 <li>Implemented several sub-features: Recordings, Reminders &amp; Start Over.</li>
 </ul>
-</li>
-<li>Core architecture project:
+<h3 id="core-architecture-and-code-semplification-project">Core architecture &amp; Code semplification project:</h3>
 <ul>
-<li>The core architecture of the application has been redisigned and rewritten using MVVM and <a href="https://github.com/pointfreeco/swift-composable-architecture">The Composable Architecture</a>. This approach came with several benefits: <mark>consistent way of implementing features, which are easier to implement and integrate with the souce code, easier to write unit tests</mark>.</li>
+<li>Different patterns and languages (ObjC &amp; Swift) were used to write the core components of the application, making it difficult and complex. Hence my team and I redesigned and and rewritten the core architecture using MVVM and <a href="https://github.com/pointfreeco/swift-composable-architecture">The Composable Architecture</a>. This approach came with several benefits: <mark>less complexity, consistent way of implementing features, which are easier to integrate with the souce code, and easier to write unit tests</mark>.</li>
+<li>On our long journey to reduce complexity, reuse code, and structure the code in a modular way using Swift packages, we were able to remove a lot of duplicated and legacy code, and were stunned by the amount of code that was deleted:</li>
 </ul>
-</li>
-<li>Integrated third-party C++ library for Digital Rights Management. Only entitled users can watch contents in the app.</li>
-<li>Native Player feature:
+<div class="diff-wrapper">
+  <div class="diff-container">
+    <span class="added">+36</span>
+    <span class="deleted">−12,980</span>
+    <div class="diff-boxes">
+    	<div class="box"></div>
+     	<div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box empty"></div>
+    </div>
+  </div>
+  <div class="diff-container">
+    <span class="added">+79</span>
+    <span class="deleted">−28,562</span>
+    <div class="diff-boxes">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box empty"></div>
+    </div>
+  </div>
+</div>
+<h3 id="digital-rights-management-drm-library-project">Digital Rights Management (DRM) library project:</h3>
 <ul>
-<li>The old, legacy, custom player written in ObjC was removed. The Apple's native player has been used instead on all platforms. This approach had several benefits: <mark>same native behaviour on all platforms, less code maintanance, up to date with latest native features</mark>.</li>
+<li>Since only entitled users can watch contents in the app, the team and I have integrated a third-party C++ library for Digital Rights Management. This is a mandatory piece of software to have.</li>
 </ul>
-</li>
-<li>Scrubbing rights feature:
+<h3 id="native-player-feature">Native Player feature:</h3>
 <ul>
-<li>Implemented the business logic that handles scrubbing rights.</li>
+<li>The old, legacy, custom players, one for iOS and one for tvOS, written in ObjC and Swift, were removed. The team decided to use Apple's native player on all platforms. This approach had several benefits: <mark>same native behaviour on all platforms, less code maintanance, up to date with latest native features</mark>.</li>
 </ul>
-</li>
-<li>One source code project:
+<h3 id="scrubbing-rights-feature">Scrubbing rights feature:</h3>
 <ul>
-<li>Initially the iOS and tvOS app had two different source code, doing the same thing. Together with my team, we merged these into one single source code. We moved business logic, features, and UI into reusable and modular swift packages. We have implemented platform-dependent UI only when necessary. This has the benefit of <mark>improving development efficiency, reducing bugs, complexity and making it easier to develop features</mark>.</li>
+<li>Since in some cases TV providers do not allow to skip forward, scrubbing must be disable. As a task I implemented the business logic handling scrubbing rights.</li>
 </ul>
-</li>
-<li>Integrated third-party analytics frameworks (Conviva, Agama), for data analysis; for example: Video startup time. This gave us lots of data and great insight into our app, so that we could <mark>take decisions that were backed by data</mark>.</li>
-<li>UI Automation Tests project:
+<h3 id="one-source-code-project">One source code project:</h3>
 <ul>
-<li>Built UI automation tests workflow on Bitrise, using Appium. This helped a lot the QA team, by <mark>saving time and improving the quality of the verification process</mark>.</li>
+<li>Initially the iOS and tvOS app had two totally different code bases, essentially doing the same thing! Together with my team, we merged these into one single code base. We moved business logic, features, and UI into reusable and modular swift packages. We have implemented platform-dependent UI only when necessary. This had the benefit of <mark>improving development efficiency, reducing bugs, complexity and making it easier to develop features</mark>.</li>
 </ul>
-</li>
-<li>CI/CD: built pipelines and workflows on Bitrise.</li>
-<li>Concurrency feature:
+<h3 id="data-analytics-project">Data Analytics project:</h3>
 <ul>
-<li>Users may have a limited amount on concurrent streams, depending on the content provider. For example: a TV channel may have two concurrent streams.</li>
+<li>Integrated third-party analytics frameworks (Conviva SDK, Agama SDk), for data analysis. This gave us lots great insight and knowledge of our app, so that we could <mark>take decisions that were backed by data</mark>.</li>
 </ul>
-</li>
-<li>Fallback feature:
+<h3 id="ui-automation-tests-project">UI Automation Tests project:</h3>
 <ul>
-<li>In case of accidents, this feature can be activated using a remote feature flag, so that users can enjoy contents that are not affected by issues from back-end. It also informs users of unavailable services in a user-friendly way.</li>
+<li>Built UI automation tests workflow on Bitrise. This helped a lot the QA team, by <mark>saving time and improving the quality of the verification process</mark>.</li>
 </ul>
-</li>
+<h3 id="ci-cd">CI/CD:</h3>
+<ul>
+<li>Built pipelines and workflows on Bitrise.</li>
 </ul>
 <p>You can find the <a href="https://apps.apple.com/dk/app/yousee-play/id476306715">YouSee Play</a> application on the AppStore</p>
-<h2 id="languages-tools-and-technologies">Languages, Tools and Technologies 🛠️</h2>
+<h1 id="languages-tools-and-technologies">Languages, Tools and Technologies 🛠️</h1>
 <ul>
-<li>Swift/Objective-C.</li>
+<li>Swift/Objective-C/Objective-C++.</li>
 <li>Xcode, Swift Package Manager, git, Bitrise.</li>
-<li>UIKit, Combine, SwiftUI, Alamofire, AppCenter, Firebase, AppSpector, The Composable Architecture.</li>
+<li>UIKit, Combine, SwiftUI, AVKit, Alamofire, Firebase, AppSpector, The Composable Architecture.</li>
 </ul>
+<h1 id="screenshots">Screenshots</h1>
+<div class="image-container">
+  <div class="image-box">
+  	<p class="banner-text">Old synopsis for a Live TV program</p>
+    <picture><source type="image/avif" srcset="/portfolio/youseeplay/4jZwXMgXtO-1179.avif 1179w"><source type="image/webp" srcset="/portfolio/youseeplay/4jZwXMgXtO-1179.webp 1179w"><img loading="lazy" decoding="async" class="project-img-asset" style="	height: 60%; width: 60%;" src="/portfolio/youseeplay/4jZwXMgXtO-1179.jpeg" alt="Old synopsis on iOS, Live TV" title="Old synopsis on iOS, Live TV" width="1179" height="2556"></picture>
+  </div>
+  <div class="image-box">
+  	<p class="banner-text">New synopsis for a Live TV program</p>
+	  <picture><source type="image/avif" srcset="/portfolio/youseeplay/LN2q9gYXzL-1179.avif 1179w"><source type="image/webp" srcset="/portfolio/youseeplay/LN2q9gYXzL-1179.webp 1179w"><img loading="lazy" decoding="async" class="project-img-asset" style="	height: 60%; width: 60%;" src="/portfolio/youseeplay/LN2q9gYXzL-1179.jpeg" alt="New synopsis on iOS, Live TV" title="New synopsis on iOS, Live TV" width="1179" height="2556"></picture>
+  </div>
+</div>
+<br>
+<div class="image-container">
+  <div class="image-box">
+  	<p class="banner-text">Old synopsis for a movie</p>
+    <picture><source type="image/avif" srcset="/portfolio/youseeplay/RUbqeM8807-1179.avif 1179w"><source type="image/webp" srcset="/portfolio/youseeplay/RUbqeM8807-1179.webp 1179w"><img loading="lazy" decoding="async" class="project-img-asset" style="	height: 60%; width: 60%;" src="/portfolio/youseeplay/RUbqeM8807-1179.jpeg" alt="Old synopsis on iOS, Movie" title="Old synopsis on iOS, Movie" width="1179" height="2556"></picture>
+  </div>
+  <div class="image-box">
+  	<p class="banner-text">New synopsis for a movie</p>
+	  <picture><source type="image/avif" srcset="/portfolio/youseeplay/yDnpY5ZliZ-1179.avif 1179w"><source type="image/webp" srcset="/portfolio/youseeplay/yDnpY5ZliZ-1179.webp 1179w"><img loading="lazy" decoding="async" class="project-img-asset" style="	height: 60%; width: 60%;" src="/portfolio/youseeplay/yDnpY5ZliZ-1179.jpeg" alt="New synopsis on iOS, Movie" title="New synopsis on iOS, Movie" width="1179" height="2556"></picture>
+  </div>
+</div>
+<br>
+<div class="image-container" style="flex-direction: column">
+  <div class="image-box">
+  	<p class="banner-text">Old synopsis for a movie</p>
+    <picture><source type="image/avif" srcset="/portfolio/youseeplay/oO5ozSE4e--3840.avif 3840w"><source type="image/webp" srcset="/portfolio/youseeplay/oO5ozSE4e--3840.webp 3840w"><img loading="lazy" decoding="async" class="project-img-asset" style="	height: 100%; width: 100%;" src="/portfolio/youseeplay/oO5ozSE4e--3840.jpeg" alt="Old synopsis on tvOS, Movie" title="Old synopsis on tvOS, Movie" width="3840" height="2160"></picture>
+  </div>
+  <div class="image-box">
+  	<p class="banner-text">New synopsis for a movie</p>
+	  <picture><source type="image/avif" srcset="/portfolio/youseeplay/s2M9EUOnOK-3840.avif 3840w"><source type="image/webp" srcset="/portfolio/youseeplay/s2M9EUOnOK-3840.webp 3840w"><img loading="lazy" decoding="async" class="project-img-asset" style="	height: 100%; width: 100%;" src="/portfolio/youseeplay/s2M9EUOnOK-3840.jpeg" alt="New synopsis on tvOS, Movie" title="New synopsis on tvOS, Movie" width="3840" height="2160"></picture>
+  </div>
+</div>
 
 
 			</heading-anchors>
@@ -2631,7 +2759,7 @@ mark {
 
 		<footer>
 			<p>
-				<em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a> on Tue Feb 11 2025</em>
+				<em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a> on Thu Feb 13 2025</em>
 			</p>
 		</footer>
 

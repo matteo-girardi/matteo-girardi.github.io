@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>DADman 🎚️🔊</title>
+		<title>DADman 🎚️ 🔊</title>
 		<meta name="description" content="The DADman app controls the audio interfaces developed at Digital Audio Denmark (DAD)">
 		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Matteo Girardi">
 		<link rel="apple-touch-icon" sizes="180x180" href="ico/apple-icon-180x180.png">
@@ -432,6 +432,87 @@ i.bi {
 
 .social li {
 	margin: 0 1.5em 0 0;
+}
+
+/* github-like diff changes */
+.diff-wrapper {
+	display: flex;
+	gap: 15px; /* Space between diff containers */
+	justify-content: center;
+	align-items: center;
+}
+
+.diff-container {
+	display: flex;
+	align-items: center;
+	background-color: white;
+	border-radius: 10px;
+	padding: 10px;
+	font-family: Arial, sans-serif;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.added {
+	color: #28a745;
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+.deleted {
+	color: #d73a49;
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+.diff-boxes {
+	display: flex;
+	gap: 2px;
+}
+
+.box {
+	width: 12px;
+	height: 12px;
+	background-color: #d73a49;
+	border-radius: 2px;
+}
+
+.box.empty {
+	background-color: #e1e4e8;
+}
+
+/* screenshots showcase */
+.image-container {
+	display: flex;
+	gap: 10px; /* Space between images */
+	margin-top: 10px;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	padding: 10px;
+	border: 3px solid black;
+	box-shadow: -7px 7px #2f2f2f;
+}
+
+.image-box {
+}
+
+.image-box img {
+	width: 300px; /* Adjust size as needed */
+	height: auto;
+	border-radius: 5px;
+}
+
+.banner-text {
+	background-color: #092119;
+	padding: 10px;
+	border-radius: 5px;
+	border: 3px solid black;
+	font-weight: bold;
+	margin-top: 10px;
+	display: inline-block;
+	width: 100%;
 }
 /*!
  * Bootstrap Icons v1.11.3 (https://icons.getbootstrap.com/)
@@ -2531,7 +2612,7 @@ url("./fonts/bootstrap-icons.woff?dd67030699838ea613ee6dbda90effa6") format("wof
 		<main id="skip">
 			<heading-anchors>
 				
-<h1 id="dadman">DADman 🎚️🔊</h1>
+<h1 id="dadman">DADman 🎚️ 🔊</h1>
 <p><a href="https://digitalaudio.dk/dadman/">DADman</a> is a software application, running on Windows &amp; macOS, that controls the DAD AD/DA converters. For more information about Digital Audio Denmark check this <a href="https://digitalaudio.dk/">link</a>.</p>
 <div>
 	<picture><source type="image/avif" srcset="/portfolio/dadman/rZTSSvJw1x-941.avif 941w"><source type="image/webp" srcset="/portfolio/dadman/rZTSSvJw1x-941.webp 941w"><img loading="lazy" decoding="async" class="project-img-asset" src="/portfolio/dadman/rZTSSvJw1x-941.jpeg" alt="DADman" title="DADman" width="941" height="839"></picture>
@@ -2550,7 +2631,7 @@ url("./fonts/bootstrap-icons.woff?dd67030699838ea613ee6dbda90effa6") format("wof
 
 		<footer>
 			<p>
-				<em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a> on Tue Feb 11 2025</em>
+				<em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a> on Thu Feb 13 2025</em>
 			</p>
 		</footer>
 
