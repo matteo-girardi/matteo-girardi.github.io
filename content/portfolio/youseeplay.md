@@ -11,12 +11,6 @@ description: A mobile application for streaming Live TV, Movies & TV series.
   margin: 15px 0;
   box-shadow: -7px 7px #2f2f2f;
 }
-mark {
- 	background-image: linear-gradient(to left,#ff79c6,#bd93f9);
-  color: black;
-  padding: 0.11em;
-  border-radius: 4px;
-}
 </style>
 
 # YouSee Play is the <mark>biggest streaming platform in Denmark 🇩🇰 </mark>

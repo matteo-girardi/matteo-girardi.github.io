@@ -1,11 +1,11 @@
 ---
-title: spAAce 🔊🧭
+title: spAAce 🔊 🧭
 description: A graphical application for spatial music.
 ---
 
 # spAAce
 
-spAAce is an innovative graphical application designed to enable users to control the real-time movement of sound sources by sketching dynamic trajectories. The initial prototype was specifically developed for Wavefield Synthesis Systems and integrates seamlessly with WFSCollider, an open-source framework built on [Supercollider](https://supercollider.github.io) that facilitates the manipulation of this advanced sound synthesis technique.
+spAAce is an innovative graphical application designed to enable users to control real-time movement of sound sources by sketching dynamic trajectories. The initial prototype was specifically developed for Wavefield Synthesis Systems and integrates seamlessly with WFSCollider, an open-source framework built on [Supercollider](https://supercollider.github.io) that facilitates the manipulation of this advanced sound synthesis technique.
 
 The spAAce application is developed using [Processing](https://processing.org/), a versatile programming language tailored for creating sketches and prototypes in the realm of visual arts. It communicates with SuperCollider via the OSC (Open Sound Control) protocol, ensuring efficient and precise interaction between the visual interface and the audio processing system.
 
@@ -20,9 +20,9 @@ The spAAce application is developed using [Processing](https://processing.org/),
 
 This application aims to create a new way of interaction for live performance of spatial composition and live electronics.
 
-Designed, developed, coded and built together with Jorge Madrid Portillo and Diego DiCarlo.
+Designed, developed, coded and built together with Jorge Madrid Portillo and [Diego DiCarlo](https://diegodicarlo.com/).
 
-Special Thanks to Francesco Grani and maestro Alvise Vidolin.
+Special thanks to Francesco Grani and maestro Alvise Vidolin.
 
 This project was realized as semester project for the MSc SMC2016 at Aalborg University (Spring 2016)
 
