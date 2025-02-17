@@ -42,7 +42,7 @@ At [YouSee](https://yousee.dk/play#forside)/[Nuuday](https://nuuday.com/) I have
 - Redesigned it on all client apps (iOS/iPad and tvOS). By implementing the UI in several Swift packages, we were able <mark>reuse code on iOS/iPadOS and tvOS, greatly reducing complexity and avoiding code duplication among these platforms. Lots of duplicated and legacy UI code was removed!</mark>
 - Implemented several sub-features: Recordings, Reminders & Start Over.
 
-### Core architecture & Code semplification project:
+### Core architecture & Code simplification project:
 - Different patterns and languages (ObjC & Swift) were used to write the core components of the application, making it difficult and complex. Hence my team and I redesigned and and rewritten the core architecture using MVVM and [The Composable Architecture](https://github.com/pointfreeco/swift-composable-architecture). This approach came with several benefits: <mark>less complexity, consistent way of implementing features, which are easier to integrate with the souce code, and easier to write unit tests</mark>.
 - On our long journey to reduce complexity, reuse code, and structure the code in a modular way using Swift packages, we were able to remove a lot of duplicated and legacy code, and were stunned by the amount of code that was deleted:
 
