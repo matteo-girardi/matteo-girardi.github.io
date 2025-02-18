@@ -43,7 +43,8 @@ At [YouSee](https://yousee.dk/play#forside)/[Nuuday](https://nuuday.com/) I have
 - Implemented several sub-features: Recordings, Reminders & Start Over.
 
 ### Core architecture & Code simplification project:
-- Different patterns and languages (ObjC & Swift) were used to write the core components of the application, making it difficult and complex. Hence my team and I redesigned and and rewritten the core architecture using MVVM and [The Composable Architecture](https://github.com/pointfreeco/swift-composable-architecture). This approach came with several benefits: <mark>less complexity, consistent way of implementing features, which are easier to integrate with the souce code, and easier to write unit tests</mark>.
+- With a mix of Objective-C, Swift, and inconsistent design patterns, the core architecture had become overly complex. To simplify and standardize it, my team and I rebuilt it using MVVM and [The Composable Architecture](https://github.com/pointfreeco/swift-composable-architecture). This shift <mark>reduced complexity, made feature development more seamless, and improved code maintainability and testability.</mark>
+
 - On our long journey to reduce complexity, reuse code, and structure the code in a modular way using Swift packages, we were able to remove a lot of duplicated and legacy code, and were stunned by the amount of code that was deleted:
 
 <div class="diff-wrapper">
@@ -70,17 +71,28 @@ At [YouSee](https://yousee.dk/play#forside)/[Nuuday](https://nuuday.com/) I have
   </div>
 </div>
 
+- The iOS project was once heavily rooted in Objective-C, with over half of its source code written in the language. However, in our <mark>mission to simplify and modernize the codebase</mark>, we embraced Swift, rewriting large portions of it. By the time I left the company, we were on the brink of fully migrating away from unnecessary Objective-C, bringing us closer to a cleaner, more efficient Swift-powered future.
+
+<div>
+	<img
+	class="project-img-asset"
+	style="height: 30%; width: 30%"
+	src="../../public/img/yousee/swift-objc.jpg"
+	alt="Swift vs. Objective-C"
+	title="Swift vs. Objective-C"/>
+</div>
+
 ### Digital Rights Management (DRM) library project:
 - Since only entitled users can watch contents in the app, the team and I have integrated a third-party C++ library for Digital Rights Management. This is a mandatory piece of software to have.
 
 ### Native Player feature:
-- The old, legacy, custom players, one for iOS and one for tvOS, written in ObjC and Swift, were removed. The team decided to use Apple's native player on all platforms. This approach had several benefits: <mark>same native behaviour on all platforms, less code maintanance, up to date with latest native features</mark>.
+- The outdated custom players—one for iOS and one for tvOS, built with a mix of Objective-C and Swift—were phased out in favor of Apple’s native player across all platforms. This strategic shift brought multiple advantages: <mark>consistent native behavior across devices, reduced maintenance overhead, and seamless access to the latest native features.</mark>
 
 ### Scrubbing rights feature:
 - Since in some cases TV providers do not allow to skip forward, scrubbing must be disable. As a task I implemented the business logic handling scrubbing rights.
 
 ### One source code project:
-- Initially the iOS and tvOS app had two totally different code bases, essentially doing the same thing! Together with my team, we merged these into one single code base. We moved business logic, features, and UI into reusable and modular swift packages. We have implemented platform-dependent UI only when necessary. This had the benefit of <mark>improving development efficiency, reducing bugs, complexity and making it easier to develop features</mark>.
+- Originally, the iOS and tvOS apps existed as separate codebases, each mirroring the other’s functionality—a duplication of effort. Working alongside my team, we unified them into a <mark>single, cohesive codebase</mark>. By modularizing business logic, features, and UI into reusable Swift packages, we ensured <mark>maximum efficiency while keeping platform-specific UI implementations to a minimum</mark>. This transformation not only <mark>streamlined development but also reduced bugs, cut complexity, and made building new features faster and more seamless</mark>.
 
 ### Data Analytics project:
 - Integrated third-party analytics frameworks (Conviva SDK, Agama SDk), for data analysis. This gave us lots great insight and knowledge of our app, so that we could <mark>take decisions that were backed by data</mark>.
