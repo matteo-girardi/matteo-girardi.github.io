@@ -110,7 +110,20 @@ html {
 	overflow-y: scroll;
 }
 body {
-	max-width: 80em;
+}
+
+/* Styles for desktop */
+@media (min-width: 1024px) {
+	body {
+		max-width: 80em;
+	}
+}
+
+/* Styles for mobile */
+@media (max-width: 1023px) {
+	body {
+		max-width: 22em;
+	}
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
