@@ -76,7 +76,6 @@ At [YouSee](https://yousee.dk/play#forside)/[Nuuday](https://nuuday.com/) I have
 <div>
 	<img
 	class="project-img-asset"
-	style="height: 30%; width: 30%"
 	src="../../public/img/yousee/swift-objc.jpg"
 	alt="Swift vs. Objective-C"
 	title="Swift vs. Objective-C"/>
