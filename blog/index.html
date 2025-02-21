@@ -129,7 +129,20 @@ html {
 	overflow-y: scroll;
 }
 body {
-	max-width: 80em;
+}
+
+/* Styles for desktop */
+@media (min-width: 1024px) {
+	body {
+		max-width: 80em;
+	}
+}
+
+/* Styles for mobile */
+@media (max-width: 1023px) {
+	body {
+		max-width: 22em;
+	}
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
@@ -196,7 +209,6 @@ header {
 	border-bottom: 1px dashed var(--color-gray-20);
 }
 header:after {
-	content: "";
 	display: table;
 	clear: both;
 }
@@ -301,6 +313,7 @@ header {
 /* Nav */
 .nav {
 	display: flex;
+	flex-wrap: wrap;
 	padding: 0;
 	margin: 0;
 	list-style: none;
@@ -446,6 +459,7 @@ mark {
 /* github-like diff changes */
 .diff-wrapper {
 	display: flex;
+	flex-wrap: wrap;
 	gap: 15px; /* Space between diff containers */
 	justify-content: center;
 	align-items: center;
@@ -2645,7 +2659,7 @@ url("./fonts/bootstrap-icons.woff?dd67030699838ea613ee6dbda90effa6") format("wof
 
 		<footer>
 			<p>
-				<em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a> on Wed Feb 19 2025</em>
+				<em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a> on Fri Feb 21 2025</em>
 			</p>
 		</footer>
 
