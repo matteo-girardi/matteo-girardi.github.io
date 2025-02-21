@@ -440,6 +440,7 @@ mark {
 /* github-like diff changes */
 .diff-wrapper {
 	display: flex;
+	flex-wrap: wrap;
 	gap: 15px; /* Space between diff containers */
 	justify-content: center;
 	align-items: center;
