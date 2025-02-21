@@ -190,7 +190,6 @@ header {
 	border-bottom: 1px dashed var(--color-gray-20);
 }
 header:after {
-	content: "";
 	display: table;
 	clear: both;
 }
@@ -295,6 +294,7 @@ header {
 /* Nav */
 .nav {
 	display: flex;
+	flex-wrap: wrap;
 	padding: 0;
 	margin: 0;
 	list-style: none;
