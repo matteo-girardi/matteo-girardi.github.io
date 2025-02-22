@@ -13,9 +13,11 @@ description: A mobile application for streaming Live TV, Movies & TV series.
 }
 </style>
 
-# YouSee Play is the <mark>biggest streaming platform in Denmark 🇩🇰 </mark>
+# <mark>YouSee Play</mark>
 
 At [YouSee](https://yousee.dk/play#forside)/[Nuuday](https://nuuday.com/) I have been working on the YouSee Play mobile app, available for iPhone, iPad and Apple TV.
+
+### YouSee Play is the <mark>biggest streaming platform in Denmark 🇩🇰 </mark>
 
 <div class="yousee-banner">
 	<h2>Endless Entertainment with YouSee Play</h2>
