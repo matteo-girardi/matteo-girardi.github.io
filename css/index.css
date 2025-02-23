@@ -276,6 +276,7 @@ header {
 	gap: 1em 0.5em;
 	flex-wrap: wrap;
 	align-items: center;
+	justify-content: center;
 	padding: 1em;
 	border: 3px solid #2f2f2f;
 	background-color: #18181b;
@@ -400,7 +401,7 @@ header {
 }
 
 #dadman-icon {
-	background-color: black;
+	background-color: #18181b;
 }
 
 /* Social */
