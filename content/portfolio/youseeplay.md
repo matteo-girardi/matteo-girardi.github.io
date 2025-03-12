@@ -3,16 +3,6 @@ title: YouSee Play 📺 👀 ▶️
 description: A mobile application for streaming Live TV, Movies & TV series.
 ---
 
-<style type="text/css">
-.yousee-banner {
-	background-color: #092119;
-  padding: 10px;
-  border: 3px solid black;
-  margin: 15px 0;
-  box-shadow: -7px 7px #2f2f2f;
-}
-</style>
-
 # <mark>YouSee Play</mark>
 
 At [YouSee](https://yousee.dk/play#forside)/[Nuuday](https://nuuday.com/) I have been working on the YouSee Play mobile app, available for iPhone, iPad and Apple TV.
@@ -116,7 +106,7 @@ You can find the [YouSee Play](https://apps.apple.com/dk/app/yousee-play/id47630
 
 <div class="image-container">
   <div class="image-box">
-  	<p class="banner-text">Old synopsis for a Live TV program</p>
+  	<p class="img-banner-text">Old synopsis for a Live TV program</p>
     <img
     class="project-img-asset"
     style="	height: 60%; width: 60%;"
@@ -125,7 +115,7 @@ You can find the [YouSee Play](https://apps.apple.com/dk/app/yousee-play/id47630
     title="Old synopsis on iOS, Live TV"/>
   </div>
   <div class="image-box">
-  	<p class="banner-text">New synopsis for a Live TV program</p>
+  	<p class="img-banner-text">New synopsis for a Live TV program</p>
 	  <img
 		class="project-img-asset"
 	  style="	height: 60%; width: 60%;"
@@ -139,7 +129,7 @@ You can find the [YouSee Play](https://apps.apple.com/dk/app/yousee-play/id47630
 
 <div class="image-container">
   <div class="image-box">
-  	<p class="banner-text">Old synopsis for a movie</p>
+  	<p class="img-banner-text">Old synopsis for a movie</p>
     <img
     class="project-img-asset"
     style="	height: 60%; width: 60%;"
@@ -148,7 +138,7 @@ You can find the [YouSee Play](https://apps.apple.com/dk/app/yousee-play/id47630
     title="Old synopsis on iOS, Movie"/>
   </div>
   <div class="image-box">
-  	<p class="banner-text">New synopsis for a movie</p>
+  	<p class="img-banner-text">New synopsis for a movie</p>
 	  <img
 		class="project-img-asset"
 	  style="	height: 60%; width: 60%;"
@@ -162,7 +152,7 @@ You can find the [YouSee Play](https://apps.apple.com/dk/app/yousee-play/id47630
 
 <div class="image-container" style="flex-direction: column">
   <div class="image-box">
-  	<p class="banner-text">Old synopsis for a movie</p>
+  	<p class="img-banner-text">Old synopsis for a movie</p>
     <img
     class="project-img-asset"
     style="	height: 100%; width: 100%;"
@@ -171,7 +161,7 @@ You can find the [YouSee Play](https://apps.apple.com/dk/app/yousee-play/id47630
     title="Old synopsis on tvOS, Movie"/>
   </div>
   <div class="image-box">
-  	<p class="banner-text">New synopsis for a movie</p>
+  	<p class="img-banner-text">New synopsis for a movie</p>
 	  <img
 		class="project-img-asset"
 	  style="	height: 100%; width: 100%;"

@@ -18,14 +18,6 @@ img {
   height: 30%;
   border-radius: 1em;
 }
-.oticon-banner {
-	color: black;
-	background-color: #943983;
-  padding: 10px;
-  border: 3px solid black;
-  margin: 15px 0;
-  box-shadow: -7px 7px #2f2f2f;
-}
 </style>
 
 
@@ -36,7 +28,7 @@ img {
 
 # <mark>Oticon ON</mark>
 
-At Oticon I have been part of the iOS team in Copenhagen. The other part of the team was located in Warsaw, Poland. Twice a year, I travelled there to work closely together and strenghten our collaboration. This app was <mark>white-labelled for several brands app: Bernafon, Sonic and Philips.</mark>
+At [Oticon](https://www.oticon.com) I have been part of the iOS team in Copenhagen. The other part of the team was located in Warsaw, Poland. Twice a year, I travelled there to work closely together and strenghten our collaboration. This app was <mark>white-labelled for several brands app: Bernafon, Sonic and Philips.</mark>
 
 <div class="oticon-banner">
 	<h2>Description</h2>
@@ -80,7 +72,7 @@ At Oticon I have been part of the iOS team in Copenhagen. The other part of the 
 
 # Screenshots
 
-<div class="scroll-container">
+<div class="scroll-container" id="scroll-container-oticon">
   <img src="../../public/img/oticon/01.jpg" alt="Oticon ON" title="Oticon ON"/>
   <img src="../../public/img/oticon/02.jpg" alt="Oticon ON" title="Oticon ON"/>
   <img src="../../public/img/oticon/03.jpg" alt="Oticon ON" title="Oticon ON"/>
