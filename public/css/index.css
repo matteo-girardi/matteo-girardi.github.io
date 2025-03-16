@@ -16,8 +16,8 @@
 
 /* Theme colors */
 /* ----------- TODO: light theme ----------- */
-:root {
-	/* --color-gray-20: #e0e0e0;
+/* :root {
+	--color-gray-20: #e0e0e0;
 	--color-gray-50: #c0c0c0;
 	--color-gray-90: #333;
 	--color-offgray-50: #f1f2f4;
@@ -27,7 +27,7 @@
 	--text-color: var(--color-gray-90);
 	--text-color-link: #082840;
 	--text-color-link-active: #5f2b48;
-	--text-color-link-visited: #17050f; */
+	--text-color-link-visited: #17050f;
 
 	--color-gray-20: #e0e0e0;
 	--color-gray-50: #c0c0c0;
@@ -86,72 +86,72 @@
 	background-size: 20px 20px;
 
 	--syntax-tab-size: 2;
+} */
+
+/* @media (prefers-color-scheme: dark) { */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #c0c0c0;
+	--color-gray-90: #dad8d8;
+	--color-gray-90-alpha: #4b515ee6;
+
+	--base-color-neutral-0: #ffffff;
+	--base-color-neutral-1: #f6f8fa;
+	--base-color-neutral-2: #eff2f5;
+	--base-color-neutral-3: #e6eaef;
+	--base-color-neutral-4: #e0e6eb;
+	--base-color-neutral-5: #dae0e7;
+	--base-color-neutral-6: #d1d9e0;
+	--base-color-neutral-7: #c8d1da;
+	--base-color-neutral-8: #818b98;
+	--base-color-neutral-9: #59636e;
+	--base-color-neutral-10: #454c54;
+	--base-color-neutral-11: #393f46;
+	--base-color-neutral-12: #25292e;
+	--base-color-neutral-13: #1f2328;
+
+	--base-color-blue-0: #ddf4ff;
+	--base-color-blue-1: #b6e3ff;
+	--base-color-blue-2: #80ccff;
+	--base-color-blue-3: #54aeff;
+	--base-color-blue-4: #218bff;
+	--base-color-blue-5: #0969da;
+	--base-color-blue-6: #0550ae;
+	--base-color-blue-7: #033d8b;
+	--base-color-blue-8: #0a3069;
+	--base-color-blue-9: #002155;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #fff;
+	--text-color-link-active: #a3f769;
+	--text-color-link-visited: #fff;
+
+	--background-color-hmf: #18181b;
+	--bg-color-header: var(--background-color-hmf);
+	--bg-color-main: var(--background-color-hmf);
+	--bg-color-footer: var(--background-color-hmf);
+
+	--border-color-hmf: var(--base-color-neutral-10);
+	--bc-header: var(--border-color-hmf);
+	--bc-main: var(--border-color-hmf);
+	--bc-footer: var(--border-color-hmf);
+
+	--avatar-border-color: var(--base-color-neutral-10);
+
+	--box-shadow-color: #11111b;
+	--img-shadow-color: #626880;
+	--img-box-shadow-color: var(--base-color-neutral-9);
+
+	--background-color: #04314f;
+	--lg-color: #63a1ff1a;
+	background-color: var(--background-color);
+	background-image: linear-gradient(to right, var(--lg-color) 2px, transparent 1px),
+		linear-gradient(to bottom, var(--lg-color) 2px, transparent 1px);
+	background-size: 20px 20px;
+
+	--syntax-tab-size: 2;
 }
-
-@media (prefers-color-scheme: dark) {
-	:root {
-		--color-gray-20: #e0e0e0;
-		--color-gray-50: #c0c0c0;
-		--color-gray-90: #dad8d8;
-		--color-gray-90-alpha: #4b515ee6;
-
-		--base-color-neutral-0: #ffffff;
-		--base-color-neutral-1: #f6f8fa;
-		--base-color-neutral-2: #eff2f5;
-		--base-color-neutral-3: #e6eaef;
-		--base-color-neutral-4: #e0e6eb;
-		--base-color-neutral-5: #dae0e7;
-		--base-color-neutral-6: #d1d9e0;
-		--base-color-neutral-7: #c8d1da;
-		--base-color-neutral-8: #818b98;
-		--base-color-neutral-9: #59636e;
-		--base-color-neutral-10: #454c54;
-		--base-color-neutral-11: #393f46;
-		--base-color-neutral-12: #25292e;
-		--base-color-neutral-13: #1f2328;
-
-		--base-color-blue-0: #ddf4ff;
-		--base-color-blue-1: #b6e3ff;
-		--base-color-blue-2: #80ccff;
-		--base-color-blue-3: #54aeff;
-		--base-color-blue-4: #218bff;
-		--base-color-blue-5: #0969da;
-		--base-color-blue-6: #0550ae;
-		--base-color-blue-7: #033d8b;
-		--base-color-blue-8: #0a3069;
-		--base-color-blue-9: #002155;
-
-		--text-color: var(--color-gray-90);
-		--text-color-link: #fff;
-		--text-color-link-active: #a3f769;
-		--text-color-link-visited: #fff;
-
-		--background-color-hmf: #18181b;
-		--bg-color-header: var(--background-color-hmf);
-		--bg-color-main: var(--background-color-hmf);
-		--bg-color-footer: var(--background-color-hmf);
-
-		--border-color-hmf: var(--base-color-neutral-10);
-		--bc-header: var(--border-color-hmf);
-		--bc-main: var(--border-color-hmf);
-		--bc-footer: var(--border-color-hmf);
-
-		--avatar-border-color: var(--base-color-neutral-10);
-
-		--box-shadow-color: #11111b;
-		--img-shadow-color: #626880;
-		--img-box-shadow-color: var(--base-color-neutral-9);
-
-		--background-color: #04314f;
-		--lg-color: #63a1ff1a;
-		background-color: var(--background-color);
-		background-image: linear-gradient(to right, var(--lg-color) 2px, transparent 1px),
-			linear-gradient(to bottom, var(--lg-color) 2px, transparent 1px);
-		background-size: 20px 20px;
-
-		--syntax-tab-size: 2;
-	}
-}
+/* } */
 
 /* Global stylesheet */
 * {
