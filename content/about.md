@@ -12,7 +12,7 @@ I’m a software engineer based in Copenhagen, Denmark 🇩🇰. I'm currently w
 
 The past 7 years I have been working as an iOS engineer building and deploying two apps: <a href="portfolio/oticonon.md">Oticon ON</a> and <a href="portfolio/youseeplay.md">YouSee Play</a>
 
-<img style="height: 30%; width: 30%;" class="avatar-img" src="../public/img/avatar.jpg" alt="avatar" title="avatar"/>
+<img class="avatar-img" src="../public/img/avatar.jpg" alt="avatar" title="avatar"/>
 
 # Other Interests
 

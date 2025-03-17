@@ -10,7 +10,6 @@ description: The DADman app controls the audio interfaces developed at Digital A
 <div>
 	<img
 	class="project-img-asset"
-	style="height: auto; width: auto"
 	src="../../public/img/ntp/dadman-gui.jpg"
 	alt="DADman"
 	title="DADman"/>

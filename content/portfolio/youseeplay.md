@@ -109,7 +109,7 @@ You can find the [YouSee Play](https://apps.apple.com/dk/app/yousee-play/id47630
   	<p class="img-banner-text">Old synopsis for a Live TV program</p>
     <img
     class="project-img-asset"
-    style="	height: 60%; width: 60%;"
+    style="height: 60%; width: 60%;"
     src="../../public/img/yousee/ios-old-synopsis-live-tv.jpg"
     alt="Old synopsis on iOS, Live TV"
     title="Old synopsis on iOS, Live TV"/>
@@ -118,7 +118,7 @@ You can find the [YouSee Play](https://apps.apple.com/dk/app/yousee-play/id47630
   	<p class="img-banner-text">New synopsis for a Live TV program</p>
 	  <img
 		class="project-img-asset"
-	  style="	height: 60%; width: 60%;"
+	  style="height: 60%; width: 60%;"
 	  src="../../public/img/yousee/ios-new-synopsis-live-tv.jpg"
 	  alt="New synopsis on iOS, Live TV"
 	  title="New synopsis on iOS, Live TV"/>
@@ -132,7 +132,7 @@ You can find the [YouSee Play](https://apps.apple.com/dk/app/yousee-play/id47630
   	<p class="img-banner-text">Old synopsis for a movie</p>
     <img
     class="project-img-asset"
-    style="	height: 60%; width: 60%;"
+    style="height: 60%; width: 60%;"
     src="../../public/img/yousee/ios-old-synopsis-movie.jpg"
     alt="Old synopsis on iOS, Movie"
     title="Old synopsis on iOS, Movie"/>
@@ -141,7 +141,7 @@ You can find the [YouSee Play](https://apps.apple.com/dk/app/yousee-play/id47630
   	<p class="img-banner-text">New synopsis for a movie</p>
 	  <img
 		class="project-img-asset"
-	  style="	height: 60%; width: 60%;"
+	  style="height: 60%; width: 60%;"
 	  src="../../public/img/yousee/ios-new-synopsis-movie.jpg"
 	  alt="New synopsis on iOS, Movie"
 	  title="New synopsis on iOS, Movie"/>
@@ -155,7 +155,7 @@ You can find the [YouSee Play](https://apps.apple.com/dk/app/yousee-play/id47630
   	<p class="img-banner-text">Old synopsis for a movie</p>
     <img
     class="project-img-asset"
-    style="	height: 100%; width: 100%;"
+    style="height: 100%; width: 100%;"
     src="../../public/img/yousee/tvos-old-synopsis-movie.jpg"
     alt="Old synopsis on tvOS, Movie"
     title="Old synopsis on tvOS, Movie"/>
@@ -164,7 +164,7 @@ You can find the [YouSee Play](https://apps.apple.com/dk/app/yousee-play/id47630
   	<p class="img-banner-text">New synopsis for a movie</p>
 	  <img
 		class="project-img-asset"
-	  style="	height: 100%; width: 100%;"
+	  style="height: 100%; width: 100%;"
 	  src="../../public/img/yousee/tvos-new-synopsis-movie.jpg"
 	  alt="New synopsis on tvOS, Movie"
 	  title="New synopsis on tvOS, Movie"/>

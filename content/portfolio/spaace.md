@@ -12,7 +12,6 @@ The spAAce application is developed using [Processing](https://processing.org/),
 <div>
   <img
   class="project-img-asset"
-  style="	height: 90%; width: 90%;"
   src="../../public/img/spaace/spaace_pipeline.jpg"
   alt="spaace"
   title="spAAce"/>

@@ -485,11 +485,9 @@ header {
 	box-shadow: none;
 }
 
-/* Images --> move it close to screenshots */
+/* Images */
 .project-img-asset {
 	border-radius: 1em;
-	height: 60%;
-	width: 60%;
 	border: 1px solid var(--border-color-hmf);
 	display: block;
 	margin-left: auto;
