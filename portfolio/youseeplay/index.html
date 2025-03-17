@@ -167,6 +167,11 @@
 		linear-gradient(to bottom, var(--lg-color) 2px, transparent 1px);
 	background-size: 20px 20px;
 
+	--mark-bg-img-lg-start: #ff79c6;
+	--mark-bg-img-lg-end: #bd93f9;
+	--caution-bg-color: #ea9d34;
+	--oticon-banner-bg-color: #b62d8a;
+
 	--syntax-tab-size: 2;
 }
 /* } */
@@ -187,33 +192,6 @@ body {
 	margin: 0 auto;
 	font-family: var(--font-family);
 	color: var(--text-color);
-
-	/* background-color: var(--background-color);
-	background-image: radial-gradient(#e7d0d3 1px, transparent 0);
-	background-size: 40px 40px;
-	background-position: -15px -15px; */
-
-	/* background:
-    radial-gradient(circle, rgba(255, 255, 255, 0.2) 1px, transparent 1px),
-    radial-gradient(circle, rgba(255, 255, 255, 0.15) 1px, transparent 1px),
-    radial-gradient(circle at 20% 30%, #4a007e, transparent 60%),
-    radial-gradient(circle at 80% 70%, #000080, transparent 50%),
-    radial-gradient(circle at 50% 50%, #8b008b, transparent 70%),
-    linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1) 30%, rgba(255, 255, 255, 0.2) 50%, transparent 70%);
-  background-size: 3px 3px, 2px 2px, 100% 100%, 100% 100%, 100% 100%, 100% 100%;
-  background-color: #000010; // Deep space black
-  background-blend-mode: screen, screen, overlay, normal, normal, lighten;
-  overflow: hidden; */
-
-	/* background: radial-gradient(circle, rgba(255, 255, 255, 0.2) 1px, transparent 1px),
-	radial-gradient(circle, rgba(255, 255, 255, 0.15) 1px, transparent 1px),
-	radial-gradient(circle at 20% 30%, #4a007e, transparent 60%),
-	radial-gradient(circle at 80% 70%, #000080, transparent 50%),
-	radial-gradient(circle at 50% 50%, #8b008b, transparent 70%);
-	background-size: 3px 3px, 2px 2px, 100% 100%, 100% 100%, 100% 100%;
-	background-color: #000010;
-	background-blend-mode: screen, screen, overlay, normal, normal;
-	overflow: hidden; */
 }
 html {
 	overflow-y: scroll;
@@ -503,11 +481,9 @@ header {
 	box-shadow: none;
 }
 
-/* Images --> move it close to screenshots */
+/* Images */
 .project-img-asset {
 	border-radius: 1em;
-	height: 60%;
-	width: 60%;
 	border: 1px solid var(--border-color-hmf);
 	display: block;
 	margin-left: auto;
@@ -537,17 +513,21 @@ i.bi {
 
 /* highlight content */
 mark {
-	background-image: linear-gradient(to left, #ff79c6, #bd93f9);
+	background-image: linear-gradient(
+		to left,
+		var(--mark-bg-img-lg-start),
+		var(--mark-bg-img-lg-end)
+	);
 	color: black;
 	padding: 0.11em;
 	border-radius: 4px;
 }
 
 .caution {
-	background-color: #ea9d34;
+	background-color: var(--caution-bg-color);
 	color: black;
 	padding: 10px;
-	border: 3px solid var(--bc-header);
+	border: 3px solid var(--border-color-hmf);
 	margin: 15px 0;
 	box-shadow: -2px 2px var(--box-shadow-color);
 	border-radius: 1em;
@@ -563,9 +543,9 @@ mark {
 
 .oticon-banner {
 	color: black;
-	background-color: #b62d8a;
+	background-color: var(--oticon-banner-bg-color);
 	padding: 10px;
-	border: 3px solid var(--bc-header);
+	border: 3px solid var(--border-color-hmf);
 	margin: 15px 0;
 	box-shadow: -2px 2px var(--box-shadow-color);
 	border-radius: 1em;
@@ -2855,33 +2835,33 @@ url("./fonts/bootstrap-icons.woff?dd67030699838ea613ee6dbda90effa6") format("wof
 <div class="image-container">
   <div class="image-box">
   	<p class="img-banner-text">Old synopsis for a Live TV program</p>
-    <picture><source type="image/avif" srcset="/portfolio/youseeplay/4jZwXMgXtO-1179.avif 1179w"><source type="image/webp" srcset="/portfolio/youseeplay/4jZwXMgXtO-1179.webp 1179w"><img loading="lazy" decoding="async" class="project-img-asset" style="	height: 60%; width: 60%;" src="/portfolio/youseeplay/4jZwXMgXtO-1179.jpeg" alt="Old synopsis on iOS, Live TV" title="Old synopsis on iOS, Live TV" width="1179" height="2556"></picture>
+    <picture><source type="image/avif" srcset="/portfolio/youseeplay/4jZwXMgXtO-1179.avif 1179w"><source type="image/webp" srcset="/portfolio/youseeplay/4jZwXMgXtO-1179.webp 1179w"><img loading="lazy" decoding="async" class="project-img-asset" style="height: 60%; width: 60%;" src="/portfolio/youseeplay/4jZwXMgXtO-1179.jpeg" alt="Old synopsis on iOS, Live TV" title="Old synopsis on iOS, Live TV" width="1179" height="2556"></picture>
   </div>
   <div class="image-box">
   	<p class="img-banner-text">New synopsis for a Live TV program</p>
-	  <picture><source type="image/avif" srcset="/portfolio/youseeplay/LN2q9gYXzL-1179.avif 1179w"><source type="image/webp" srcset="/portfolio/youseeplay/LN2q9gYXzL-1179.webp 1179w"><img loading="lazy" decoding="async" class="project-img-asset" style="	height: 60%; width: 60%;" src="/portfolio/youseeplay/LN2q9gYXzL-1179.jpeg" alt="New synopsis on iOS, Live TV" title="New synopsis on iOS, Live TV" width="1179" height="2556"></picture>
+	  <picture><source type="image/avif" srcset="/portfolio/youseeplay/LN2q9gYXzL-1179.avif 1179w"><source type="image/webp" srcset="/portfolio/youseeplay/LN2q9gYXzL-1179.webp 1179w"><img loading="lazy" decoding="async" class="project-img-asset" style="height: 60%; width: 60%;" src="/portfolio/youseeplay/LN2q9gYXzL-1179.jpeg" alt="New synopsis on iOS, Live TV" title="New synopsis on iOS, Live TV" width="1179" height="2556"></picture>
   </div>
 </div>
 <br>
 <div class="image-container">
   <div class="image-box">
   	<p class="img-banner-text">Old synopsis for a movie</p>
-    <picture><source type="image/avif" srcset="/portfolio/youseeplay/RUbqeM8807-1179.avif 1179w"><source type="image/webp" srcset="/portfolio/youseeplay/RUbqeM8807-1179.webp 1179w"><img loading="lazy" decoding="async" class="project-img-asset" style="	height: 60%; width: 60%;" src="/portfolio/youseeplay/RUbqeM8807-1179.jpeg" alt="Old synopsis on iOS, Movie" title="Old synopsis on iOS, Movie" width="1179" height="2556"></picture>
+    <picture><source type="image/avif" srcset="/portfolio/youseeplay/RUbqeM8807-1179.avif 1179w"><source type="image/webp" srcset="/portfolio/youseeplay/RUbqeM8807-1179.webp 1179w"><img loading="lazy" decoding="async" class="project-img-asset" style="height: 60%; width: 60%;" src="/portfolio/youseeplay/RUbqeM8807-1179.jpeg" alt="Old synopsis on iOS, Movie" title="Old synopsis on iOS, Movie" width="1179" height="2556"></picture>
   </div>
   <div class="image-box">
   	<p class="img-banner-text">New synopsis for a movie</p>
-	  <picture><source type="image/avif" srcset="/portfolio/youseeplay/yDnpY5ZliZ-1179.avif 1179w"><source type="image/webp" srcset="/portfolio/youseeplay/yDnpY5ZliZ-1179.webp 1179w"><img loading="lazy" decoding="async" class="project-img-asset" style="	height: 60%; width: 60%;" src="/portfolio/youseeplay/yDnpY5ZliZ-1179.jpeg" alt="New synopsis on iOS, Movie" title="New synopsis on iOS, Movie" width="1179" height="2556"></picture>
+	  <picture><source type="image/avif" srcset="/portfolio/youseeplay/yDnpY5ZliZ-1179.avif 1179w"><source type="image/webp" srcset="/portfolio/youseeplay/yDnpY5ZliZ-1179.webp 1179w"><img loading="lazy" decoding="async" class="project-img-asset" style="height: 60%; width: 60%;" src="/portfolio/youseeplay/yDnpY5ZliZ-1179.jpeg" alt="New synopsis on iOS, Movie" title="New synopsis on iOS, Movie" width="1179" height="2556"></picture>
   </div>
 </div>
 <br>
 <div class="image-container" style="flex-direction: column">
   <div class="image-box">
   	<p class="img-banner-text">Old synopsis for a movie</p>
-    <picture><source type="image/avif" srcset="/portfolio/youseeplay/oO5ozSE4e--3840.avif 3840w"><source type="image/webp" srcset="/portfolio/youseeplay/oO5ozSE4e--3840.webp 3840w"><img loading="lazy" decoding="async" class="project-img-asset" style="	height: 100%; width: 100%;" src="/portfolio/youseeplay/oO5ozSE4e--3840.jpeg" alt="Old synopsis on tvOS, Movie" title="Old synopsis on tvOS, Movie" width="3840" height="2160"></picture>
+    <picture><source type="image/avif" srcset="/portfolio/youseeplay/oO5ozSE4e--3840.avif 3840w"><source type="image/webp" srcset="/portfolio/youseeplay/oO5ozSE4e--3840.webp 3840w"><img loading="lazy" decoding="async" class="project-img-asset" style="height: 100%; width: 100%;" src="/portfolio/youseeplay/oO5ozSE4e--3840.jpeg" alt="Old synopsis on tvOS, Movie" title="Old synopsis on tvOS, Movie" width="3840" height="2160"></picture>
   </div>
   <div class="image-box">
   	<p class="img-banner-text">New synopsis for a movie</p>
-	  <picture><source type="image/avif" srcset="/portfolio/youseeplay/s2M9EUOnOK-3840.avif 3840w"><source type="image/webp" srcset="/portfolio/youseeplay/s2M9EUOnOK-3840.webp 3840w"><img loading="lazy" decoding="async" class="project-img-asset" style="	height: 100%; width: 100%;" src="/portfolio/youseeplay/s2M9EUOnOK-3840.jpeg" alt="New synopsis on tvOS, Movie" title="New synopsis on tvOS, Movie" width="3840" height="2160"></picture>
+	  <picture><source type="image/avif" srcset="/portfolio/youseeplay/s2M9EUOnOK-3840.avif 3840w"><source type="image/webp" srcset="/portfolio/youseeplay/s2M9EUOnOK-3840.webp 3840w"><img loading="lazy" decoding="async" class="project-img-asset" style="height: 100%; width: 100%;" src="/portfolio/youseeplay/s2M9EUOnOK-3840.jpeg" alt="New synopsis on tvOS, Movie" title="New synopsis on tvOS, Movie" width="3840" height="2160"></picture>
   </div>
 </div>
 
@@ -2893,7 +2873,7 @@ url("./fonts/bootstrap-icons.woff?dd67030699838ea613ee6dbda90effa6") format("wof
 
 		<footer>
 			<p>
-				<em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a> on Sun Mar 16 2025</em>
+				<em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a> on Mon Mar 17 2025</em>
 			</p>
 		</footer>
 
