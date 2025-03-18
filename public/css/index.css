@@ -435,6 +435,8 @@ header {
 	border-radius: 1em;
 	border: 2px solid var(--pj-img-border-color);
 	box-shadow: -3px 3px var(--pj-img-shadow-color);
+	height: auto;
+	width: auto;
 }
 
 .project-img:hover {
