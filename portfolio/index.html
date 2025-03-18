@@ -57,6 +57,8 @@
 	--base-color-blue-7: #033d8b;
 	--base-color-blue-8: #0a3069;
 	--base-color-blue-9: #002155;
+
+	--box-shadow-length: -7px 7px;
 }
 
 /* Theme colors */
@@ -244,7 +246,7 @@ footer {
 footer {
 	border: 3px solid var(--bc-footer);
 	background-color: var(--bg-color-footer);
-	box-shadow: -7px 7px var(--box-shadow-color);
+	box-shadow: var(--box-shadow-length) var(--box-shadow-color);
 	border-radius: 1em;
 	margin-top: 1em;
 }
@@ -332,7 +334,7 @@ code {
 main {
 	border: 3px solid var(--bc-main);
 	background-color: var(--bg-color-main);
-	box-shadow: -7px 7px var(--box-shadow-color);
+	box-shadow: var(--box-shadow-length) var(--box-shadow-color);
 	border-radius: 1em;
 	margin-top: 1em;
 }
@@ -348,7 +350,7 @@ header {
 	border: 3px solid var(--bc-header);
 	background-color: var(--bg-color-header);
 	margin-top: 1em;
-	box-shadow: -7px 7px var(--box-shadow-color);
+	box-shadow: var(--box-shadow-length) var(--box-shadow-color);
 	border-radius: 1em;
 }
 .home-link {
@@ -452,6 +454,8 @@ header {
 	border-radius: 1em;
 	border: 2px solid var(--pj-img-border-color);
 	box-shadow: -3px 3px var(--pj-img-shadow-color);
+	height: auto;
+	width: auto;
 }
 
 .project-img:hover {
@@ -2718,6 +2722,11 @@ url("./fonts/bootstrap-icons.woff?dd67030699838ea613ee6dbda90effa6") format("wof
             <picture><source type="image/avif" srcset="/portfolio/iEb6DorSUe-128.avif 128w"><source type="image/webp" srcset="/portfolio/iEb6DorSUe-128.webp 128w"><img loading="lazy" decoding="async" class="project-img" src="/portfolio/iEb6DorSUe-128.png" alt="DADman" title="DADman" id="dadman-icon" width="128" height="128"></picture>
         </a>
     </li>
+    <li>
+        <a href="/portfolio/website/">
+            <picture><source type="image/avif" srcset="/portfolio/piPisxAJqy-512.avif 512w"><source type="image/webp" srcset="/portfolio/piPisxAJqy-512.webp 512w"><img loading="lazy" decoding="async" class="project-img" src="/portfolio/piPisxAJqy-512.png" alt="" title="" id="" width="512" height="512"></picture>
+        </a>
+    </li>
 </ul>
 
 
@@ -2754,7 +2763,7 @@ url("./fonts/bootstrap-icons.woff?dd67030699838ea613ee6dbda90effa6") format("wof
 
 		<footer>
 			<p>
-				<em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a> on Mon Mar 17 2025</em>
+				<em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a> on Tue Mar 18 2025</em>
 			</p>
 		</footer>
 
