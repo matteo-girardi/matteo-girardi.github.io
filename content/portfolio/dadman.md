@@ -21,13 +21,15 @@ For more information about Digital Audio Denmark check this [link](https://digit
 - work in progress... 😁
 
 # Features, projects & responsibilities 📖
-- work in progress... 😁
+
+### Self-hosted GitLab instance:
+- Mantaining and upgrading a GitLab instance using docker.
 
 # Languages, Tools and Technologies 🛠️
-
-- C/C++, Objective-C++, JavaScript/HTML/CSS
-- Microsoft Foundation Class (MFC) Library, AppKit
-- Xcode, Visual Studio, Cmake, git, GitLab.
+- C/C++, Objective-C++, JavaScript/HTML/CSS.
+- Microsoft Foundation Class (MFC) Library, AppKit.
+- Xcode, Visual Studio, Cmake, git.
+- GitLab, docker.
 
 # Screenshots
 - work in progress... 😁
