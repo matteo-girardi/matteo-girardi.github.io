@@ -16,7 +16,7 @@
 		<meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f7f2">
 		<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#082840">
 		
-		<style>.postlist { counter-reset: start-from 3 }
+		<style>.postlist { counter-reset: start-from 2 }
 /* This is an arbitrary CSS string added to the bundle */
 @font-face {
 	font-display: swap;
@@ -116,7 +116,7 @@
 		--color-gray-90: #dad8d8;
 		--color-gray-90-alpha: #4b515ee6;
 
-		--text-color: var(--color-gray-90);
+		--text-color: var(--base-color-neutral-1);
 		--text-color-link: #fff;
 		--text-color-link-active: #a3f769;
 		--text-color-link-visited: #fff;
@@ -448,6 +448,16 @@ header {
 }
 .post-metadata time {
 	margin-right: 1em;
+}
+
+/* Home - index */
+.short-intro {
+	padding: 1rem;
+	border: 3px solid var(--bc-footer);
+	background-color: var(--bg-color-footer);
+	box-shadow: var(--box-shadow-length) var(--box-shadow-color);
+	border-radius: 1em;
+	margin-top: 1em;
 }
 
 /* Portfolio */
@@ -2708,6 +2718,8 @@ url("./fonts/bootstrap-icons.woff?dd67030699838ea613ee6dbda90effa6") format("wof
 			</nav>
 		</header>
 
+		
+
 		<main id="skip">
 			<heading-anchors>
 				
@@ -2720,10 +2732,6 @@ url("./fonts/bootstrap-icons.woff?dd67030699838ea613ee6dbda90effa6") format("wof
 		<a href="/blog/2020-07-05-very-first-post/" class="postlist-link">My very first post</a>
 		<time class="postlist-date" datetime="2020-07-05">July 2020</time>
 	</li>
-	<li class="postlist-item">
-		<a href="/blog/2020-07-04-welcome-to-my-website/" class="postlist-link">Welcome to Matteo&#39;s corner of the Internet !</a>
-		<time class="postlist-date" datetime="2020-07-04">July 2020</time>
-	</li>
 </ol>
 
 
@@ -2735,7 +2743,7 @@ url("./fonts/bootstrap-icons.woff?dd67030699838ea613ee6dbda90effa6") format("wof
 
 		<footer>
 			<p>
-				<em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a> on Wed Mar 19 2025</em>
+				<em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a> on Thu Mar 20 2025</em>
 			</p>
 		</footer>
 

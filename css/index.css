@@ -96,7 +96,7 @@
 		--color-gray-90: #dad8d8;
 		--color-gray-90-alpha: #4b515ee6;
 
-		--text-color: var(--color-gray-90);
+		--text-color: var(--base-color-neutral-1);
 		--text-color-link: #fff;
 		--text-color-link-active: #a3f769;
 		--text-color-link-visited: #fff;
@@ -428,6 +428,16 @@ header {
 }
 .post-metadata time {
 	margin-right: 1em;
+}
+
+/* Home - index */
+.short-intro {
+	padding: 1rem;
+	border: 3px solid var(--bc-footer);
+	background-color: var(--bg-color-footer);
+	box-shadow: var(--box-shadow-length) var(--box-shadow-color);
+	border-radius: 1em;
+	margin-top: 1em;
 }
 
 /* Portfolio */
