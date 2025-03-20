@@ -1,7 +1,7 @@
 {
 	"name": "matteo-girardi.github.io",
 	"version": "9.0.0",
-	"description": "Matteo Girardi's personal website, using the Eleventy site generator and based on eleventy-base-blog",
+	"description": "Matteo Girardi's website, using the Eleventy site generator and based on eleventy-base-blog",
 	"type": "module",
 	"scripts": {
 		"build": "npx @11ty/eleventy",

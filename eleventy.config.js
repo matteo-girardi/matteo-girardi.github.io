@@ -71,7 +71,7 @@ export default async function (eleventyConfig) {
 		},
 		metadata: {
 			language: "en",
-			title: "Matteo Girardi's personal blog",
+			title: "Matteo Girardi's website",
 			subtitle: "Goosnargh!",
 			base: "https://matteo-girardi.github.io/",
 			author: {
