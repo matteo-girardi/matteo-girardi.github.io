@@ -430,6 +430,16 @@ header {
 	margin-right: 1em;
 }
 
+/* Home - index */
+.short-intro {
+	padding: 1rem;
+	border: 3px solid var(--bc-footer);
+	background-color: var(--bg-color-footer);
+	box-shadow: var(--box-shadow-length) var(--box-shadow-color);
+	border-radius: 1em;
+	margin-top: 1em;
+}
+
 /* Portfolio */
 .project-img {
 	border-radius: 1em;

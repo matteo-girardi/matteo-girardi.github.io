@@ -67,6 +67,10 @@
 			</nav>
 		</header>
 
+		{% if currentPage == "home" %}
+		{% include "shortintro.html" %}
+		{% endif %}
+
 		<main id="skip">
 			<heading-anchors>
 				{{ content | safe }}

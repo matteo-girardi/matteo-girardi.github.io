@@ -5,7 +5,9 @@ const eleventyNavigation = {
 };
 
 const numberOfLatestPostsToShow = 3;
+const currentPage = "home";
 ---
+
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 <h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
