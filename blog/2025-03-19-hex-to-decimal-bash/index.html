@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Tagged &#39;Goosnargh&#39;</title>
-		<meta name="description" content="Software engineer, music lover, sci-fi addicted, stargazer and stuck in a deadlock!">
+		<title>Convert Hex to Decimal in Bash</title>
+		<meta name="description" content="One approach to convert a Hex value to Decimal">
 		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Matteo Girardi">
 		<link rel="apple-touch-icon" sizes="180x180" href="ico/apple-icon-180x180.png">
 		<link rel="icon" type="image/png" sizes="192x192" href="ico/android-icon-192x192.png">
@@ -16,7 +16,174 @@
 		<meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f7f2">
 		<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#082840">
 		
-		<style>.postlist { counter-reset: start-from 2 }
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
 /* This is an arbitrary CSS string added to the bundle */
 @font-face {
 	font-display: swap;
@@ -2723,20 +2890,44 @@ url("./fonts/bootstrap-icons.woff?dd67030699838ea613ee6dbda90effa6") format("wof
 		<main id="skip">
 			<heading-anchors>
 				
-<h1 id="tagged-goosnargh">Tagged “Goosnargh”</h1>
+<h1 id="convert-hex-to-decimal-in-bash">Convert Hex to Decimal in Bash</h1>
 
+<ul class="post-metadata">
+	<li><time datetime="2025-03-19">19 March 2025</time></li>
+	<li><a href="/tags/hex/" class="post-tag">Hex</a>, </li>
+	<li><a href="/tags/bash/" class="post-tag">Bash</a></li>
+</ul>
 
+<p>For reasons I don't fully recall—probably because I was searching for colors to style my web site—I found myself frequently converting hex values to decimal. I quickly grew tired of searching online for a hex converter every time, so I wondered if there was a simpler way to do it directly in the terminal.</p>
+<p>Turns out, there is! You can use a simple one-liner in Bash:</p>
+<pre class="language-bash" tabindex="0"><code class="language-bash">$ <span class="token builtin class-name">echo</span> <span class="token variable"><span class="token variable">$((</span> <span class="token number">16</span>#FF <span class="token variable">))</span></span>
+<span class="token number">255</span></code></pre>
+<p>Neat, simple, and no need to repeat the same search online!</p>
+<hr>
+<h3 id="but-how-does-it-work">But how does it work?</h3>
+<p>Bash provides several ways to perform arithmetic operations, but for integer calculations, the recommended approach is to use its built-in <a href="https://www.gnu.org/software/bash/manual/html_node/Arithmetic-Expansion.html">Arithmetic Expansion</a> feature. This allows you to evaluate expressions within double parentheses:</p>
+<pre class="language-bash" tabindex="0"><code class="language-bash"><span class="token variable"><span class="token variable">$((</span> expression <span class="token variable">))</span></span></code></pre>
+<p>For example:</p>
+<pre class="language-bash" tabindex="0"><code class="language-bash">$ <span class="token builtin class-name">echo</span> <span class="token variable"><span class="token variable">$((</span> <span class="token number">40</span> <span class="token operator">+</span> <span class="token number">2</span> <span class="token variable">))</span></span></code></pre>
+<p>By default, Bash arithmetic works in base 10. However, you can specify a different base using the syntax <em>base#number</em>. Regardless of the original base, arithmetic expansion always returns the decimal equivalent. This makes it easy to convert hexadecimal values:</p>
+<pre class="language-bash" tabindex="0"><code class="language-bash">$ <span class="token builtin class-name">echo</span> <span class="token variable"><span class="token variable">$((</span> <span class="token number">16</span>#<span class="token number">2</span>A <span class="token variable">))</span></span>
+<span class="token number">42</span></code></pre>
+<p>This method is useful for quick conversions, but be cautious when using it for validation. For example:</p>
+<pre class="language-bash" tabindex="0"><code class="language-bash">$ <span class="token assign-left variable">HEX</span><span class="token operator">=</span><span class="token string">'F+!P4_'</span>
+$ <span class="token builtin class-name">echo</span> <span class="token variable"><span class="token variable">$((</span> <span class="token number">16</span>#$HEX <span class="token variable">))</span></span>
+<span class="token number">16</span></code></pre>
+<p>This result is misleading because <em>F+!P4_</em> is not a valid hexadecimal number. Thus, I wouldn’t rely on this method in a script if input validation is required.</p>
+<p>An alternative approach is to use <code>printf</code>:</p>
+<pre class="language-bash" tabindex="0"><code class="language-bash">$ <span class="token builtin class-name">printf</span> <span class="token string">"%d<span class="token entity" title="\n">\n</span>"</span> 0x0F
+<span class="token number">15</span></code></pre>
+<p>However, it has similar issues:</p>
+<pre class="language-bash" tabindex="0"><code class="language-bash">$ <span class="token assign-left variable">HEX</span><span class="token operator">=</span><span class="token string">'F+!P4_'</span>
+$ <span class="token builtin class-name">printf</span> <span class="token string">"%d<span class="token entity" title="\n">\n</span>"</span> 0x<span class="token variable">$HEX</span>
+<span class="token number">16</span></code></pre>
+<p>So while these methods are handy for quick conversions, they shouldn't be trusted for strict hex validation. Use them wisely!</p>
 
-<ol reversed="" class="postlist">
-	<li class="postlist-item">
-		<a href="/blog/2020-07-05-very-first-post/" class="postlist-link">My very first post</a>
-		<time class="postlist-date" datetime="2020-07-05">July 2020</time>
-	</li>
-</ol>
-
-
-<p>See <a href="/tags/">all tags</a>.</p>
-
+<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/blog/2020-07-05-very-first-post/">My very first post</a></li>
+</ul>
 
 			</heading-anchors>
 		</main>
