@@ -35,18 +35,18 @@
 	},
 	"homepage": "https://matteo-girardi.github.io/",
 	"devDependencies": {
-		"@11ty/eleventy": "^3.0.0",
-		"@11ty/eleventy-img": "^5.0.0",
-		"@11ty/eleventy-navigation": "^0.3.5",
-		"@11ty/eleventy-plugin-rss": "^2.0.2",
-		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-		"cross-env": "^7.0.3",
+		"@11ty/eleventy": "^3.1.2",
+		"@11ty/eleventy-img": "^6.0.4",
+		"@11ty/eleventy-navigation": "^1.0.4",
+		"@11ty/eleventy-plugin-rss": "^2.0.4",
+		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.1",
+		"cross-env": "^10.0.0",
 		"luxon": "^3.5.0",
-		"zod": "^3.23.8",
-		"zod-validation-error": "^3.3.1"
+		"zod": "^4.0.14",
+		"zod-validation-error": "^4.0.1"
 	},
 	"dependencies": {
-		"@zachleat/heading-anchors": "^1.0.1",
-		"bootstrap-icons": "^1.11.3"
+		"@zachleat/heading-anchors": "^1.0.3",
+		"bootstrap-icons": "^1.13.1"
 	}
 }
